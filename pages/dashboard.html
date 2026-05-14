@@ -1,553 +1,61 @@
 <!DOCTYPE html>
-<html lang="english">
+<html lang="en">
   <head>
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/dashboard.css">
-    <link rel="stylesheet" href="../assets/css/responsive-scale.css">
-    <title>exported project</title>
-    <meta property="og:title" content="exported project" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
-
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
-    </style>
-    <style data-tag="default-style-sheet">
-      html {
-        font-family: Inter;
-        font-size: 16px;
-      }
-
-      body {
-        font-weight: 400;
-        font-style:normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.15;
-        color: var(--dl-color-theme-neutral-dark);
-        background: var(--dl-color-theme-neutral-light);
-
-        fill: var(--dl-color-theme-neutral-dark);
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/animate.css@4.1.1/animate.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
-    />
-    <link rel="stylesheet" href="/assets/css/responsive-scale.css">
-</head>
+    <title>Inventur - Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700;800&display=swap" />
+    <link rel="stylesheet" href="../assets/css/app.css" />
+    <link rel="stylesheet" href="../assets/css/dashboard.css" />
+  </head>
   <body>
-      <div class="dashboard-container1">
-        <div class="dashboard-thq-dashboard-elm">
-          <div class="dashboard-thq-main-container-elm1">
-            <div class="dashboard-thq-main-container-elm2">
-              <div class="dashboard-thq-header-container-elm">
-                <div class="dashboard-thq-header-content-elm">
-                  <img
-                    src="/assets/img/icons/User Icon.svg"
-                    alt="UserIcon9068"
-                    class="dashboard-thq-user-icon-elm"
-                  />
-                  <div class="dashboard-thq-greeting-container-elm">
-                    <div class="dashboard-thq-greeting-text-container-elm">
-                      <span class="dashboard-thq-text-elm10">
-                        <span class="dashboard-thq-text-elm11">Hi User,</span>
-                        <span class="dashboard-thq-text-elm12"></span>
-                        <span>
-                          here's what's happening with your store today.
-                        </span>
-                      </span>
-                    </div>
-                  </div>
-                  <div class="dashboard-thq-dateand-actions-container-elm">
-                    <div class="dashboard-thq-date-container-elm">
-                      <img
-                        src="/assets/img/icons/Calendar Icon.svg"
-                        alt="CalendarIcon9068"
-                        class="dashboard-thq-calendar-icon-elm"
-                      />
-                      <span class="dashboard-thq-text-elm14 BodyRegular">
-                        01 Jan 2024 - 07 Jan 2024
-                      </span>
-                    </div>
-                    <div class="dashboard-thq-actions-container-elm">
-                      <div class="dashboard-thq-refresh-container-elm">
-                        <img
-                          src="/assets/img/icons/Refresh Icon.svg"
-                          alt="RefreshIcon9068"
-                          class="dashboard-thq-refresh-icon-elm"
-                        />
-                      </div>
-                      <div class="dashboard-thq-expand-container-elm">
-                        <img
-                          src="/assets/img/icons/Expand Icon.svg"
-                          alt="ExpandIcon9068"
-                          class="dashboard-thq-expand-icon-elm"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="dashboard-thq-container-elm10">
-                <div class="dashboard-thq-container-elm11">
-                  <div class="dashboard-thq-container-elm12">
-                    <div class="dashboard-thq-container-elm13">
-                      <div class="dashboard-thq-container-elm14">
-                        <span class="dashboard-thq-text-elm15 HeadingH4">
-                          Weekly Earning
-                        </span>
-                        <div class="dashboard-thq-container-elm15">
-                          <span class="dashboard-thq-text-elm16 HeadingH1">
-                            $95000.45
-                          </span>
-                          <div class="dashboard-thq-container-elm16">
-                            <img
-                              src="/assets/img/icons/Vector_sukses.svg"
-                              alt="Vector9068"
-                              class="dashboard-thq-vector-elm10"
-                            />
-                            <span class="dashboard-thq-text-elm17">
-                              <span class="dashboard-thq-text-elm18">48%</span>
-                              <span>increase compare to last week</span>
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-                      <img
-                        src="/assets/img/backgrounds/compared to last week.png"
-                        alt="Image9068"
-                        class="dashboard-thq-image-elm"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div class="dashboard-thq-container-elm17">
-                  <div class="dashboard-thq-image3traced-elm">
-                    <div class="dashboard-thq-black-elm1">
-                      <img
-                        src="/assets/img/icons/image 3 (traced).svg"
-                        alt="Vector9068"
-                        class="dashboard-thq-vector-elm11"
-                      />
-                    </div>
-                  </div>
-                  <div class="dashboard-thq-container-elm18">
-                    <span class="dashboard-thq-text-elm20 HeadingH1">
-                      10,000+
-                    </span>
-                    <span class="dashboard-thq-text-elm21 BodyRegular">
-                      No of Total Sales
-                    </span>
-                  </div>
-                  <img
-                    src="/assets/img/icons/Refresh Icon.svg"
-                    alt="Icon9068"
-                    class="dashboard-thq-icon-elm1"
-                  />
-                </div>
-                <div class="dashboard-thq-container-elm19">
-                  <div class="dashboard-thq-container-elm20">
-                    <div class="dashboard-thq-image4traced-elm">
-                      <div class="dashboard-thq-black-elm2">
-                        <img
-                          src="/assets/img/icons/image 4 (traced).svg"
-                          alt="Vector9068"
-                          class="dashboard-thq-vector-elm15"
-                        />
-
-                      </div>
-                    </div>
-                    <div class="dashboard-thq-container-elm21">
-                      <span class="dashboard-thq-text-elm22 HeadingH1">
-                        800+
-                      </span>
-                      <span class="dashboard-thq-text-elm23 BodyRegular">
-                        No of Purchased Goods
-                      </span>
-                    </div>
-                  </div>
-                  <img
-                    src="/assets/img/icons/Refresh Icon.svg"
-                    alt="Icon9068"
-                    class="dashboard-thq-icon-elm2"
-                  />
-                </div>
-              </div>
+    <div class="app-shell">
+      <aside class="app-sidebar">
+        <a class="app-logo" href="./dashboard.html"><img src="../assets/img/Logo.svg" alt="Inventur" /></a>
+        <nav class="app-nav">
+          <section class="nav-group"><p class="nav-label">Main</p><a class="nav-link active" href="./dashboard.html"><img src="../assets/img/icons/layout-grid.svg" alt="" />Dashboard</a></section>
+          <section class="nav-group"><p class="nav-label">Inventory</p><a class="nav-link" href="./products.html"><img src="../assets/img/icons/box.svg" alt="" />Products</a></section>
+          <section class="nav-group"><p class="nav-label">Reports</p><a class="nav-link" href="./invoice-reports.html"><img src="../assets/img/icons/invoice-report.svg" alt="" />Invoice Report</a></section>
+          <section class="nav-group"><p class="nav-label">Settings</p><a class="nav-link" href="./sign-in.html"><img src="../assets/img/icons/logout.svg" alt="" />Logout</a></section>
+        </nav>
+      </aside>
+      <main class="app-main">
+        <header class="app-topbar"><a class="btn btn-navy" href="./pos.html"><img src="../assets/img/icons/device-laptop.svg" alt="" />POS</a></header>
+        <section class="app-content dashboard-page">
+          <div class="dashboard-greeting card">
+            <h1>👋 Hi User, <span>here's what's happening with your store today.</span></h1>
+            <div class="page-actions">
+              <button class="btn"><img src="../assets/img/icons/Calendar Icon.svg" alt="" />01 Jan 2024 - 07 Jan 2024</button>
+              <button class="icon-btn"><img src="../assets/img/icons/Refresh Icon.svg" alt="" /></button>
+              <button class="icon-btn"><img src="../assets/img/icons/chevron-up.svg" alt="" /></button>
             </div>
           </div>
-          <div class="dashboard-thq-sidebar-elm">
-            <div class="dashboard-thq-body-elm">
-              <div class="dashboard-thq-container-main-elm">
-                <span class="dashboard-thq-text-elm24 BodySmallBodysmSemibold">
-                  Main
-                </span>
-                <div class="dashboard-thq-menus-elm1">
-                  <div class="dashboard-thq-menu-elm1">
-                    <div class="dashboard-thq-content-elm1">
-                      <img
-                        src="/assets/img/icons/logout.svg"
-                        alt="layoutgrid9093"
-                        class="dashboard-thq-layoutgrid-elm"
-                      />
-                      <span
-                        class="dashboard-thq-text-elm25 BodyLargeBodylgMedium"
-                      >
-                        Dashboard
-                      </span>
-                    </div>
-                  </div>
-                </div>
+          <div class="metric-grid">
+            <article class="earning-card card">
+              <div>
+                <p>Weekly Earning</p>
+                <strong>$95000.45</strong>
+                <span>⌃ 48% increase compare to last week</span>
               </div>
-              <img
-                src="/assets/img/backgrounds/Divider Line.png"
-                alt="Divider9093"
-                class="dashboard-thq-divider-elm1"
-              />
-              <div class="dashboard-thq-container-inventory-elm">
-                <span class="dashboard-thq-text-elm26 BodySmallBodysmBold">
-                  Inventory
-                </span>
-                <div class="dashboard-thq-menus-elm2">
-                  <div class="dashboard-thq-menu-elm2">
-                    <div class="dashboard-thq-content-elm2">
-                      <img
-                        src="/assets/img/icons/box.svg"
-                        alt="box9093"
-                        class="dashboard-thq-box-elm"
-                      />
-                      <span
-                        class="dashboard-thq-text-elm27 BodyLargeBodylgMedium"
-                      >
-                        Products
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <img
-                src="/assets/img/backgrounds/Divider Line.png"
-                alt="Divider9093"
-                class="dashboard-thq-divider-elm2"
-              />
-              <div class="dashboard-thq-container-report-elm">
-                <span class="dashboard-thq-text-elm28 BodySmallBodysmBold">
-                  Reports
-                </span>
-                <div class="dashboard-thq-menus-elm3">
-                  <div class="dashboard-thq-menu-elm3">
-                    <div class="dashboard-thq-content-elm3">
-                      <img
-                        src="/assets/img/icons/invoice-report.svg"
-                        alt="businessplan9093"
-                        class="dashboard-thq-businessplan-elm"
-                      />
-                      <span
-                        class="dashboard-thq-text-elm29 BodyLargeBodylgMedium"
-                      >
-                        Invoice Report
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <img
-                src="/assets/img/backgrounds/Divider Line.png"
-                alt="Divider9093"
-                class="dashboard-thq-divider-elm3"
-              />
-              <div class="dashboard-thq-container-settings-elm">
-                <span class="dashboard-thq-text-elm30 BodySmallBodysmBold">
-                  Settings
-                </span>
-                <div class="dashboard-thq-menus-elm4">
-                  <div class="dashboard-thq-menu-elm4">
-                    <div class="dashboard-thq-content-elm4">
-                      <img
-                        src="/assets/img/icons/logout.svg"
-                        alt="logout9093"
-                        class="dashboard-thq-logout-elm"
-                      />
-                      <span
-                        class="dashboard-thq-text-elm31 BodyLargeBodylgMedium"
-                      >
-                        Logout
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="dashboard-thq-title-elm">
-              <img
-                src="/assets/img/Logo.svg"
-                alt="Logo9093"
-                class="dashboard-thq-logo-elm"
-              />
-            </div>
+              <img src="../assets/img/backgrounds/compared to last week.png" alt="" />
+            </article>
+            <article class="metric-card sales-card">
+              <img src="../assets/img/icons/image 3 (traced).svg" alt="" />
+              <strong>10,000+</strong>
+              <span>No of Total Sales</span>
+              <img class="refresh" src="../assets/img/icons/Refresh Icon.svg" alt="" />
+            </article>
+            <article class="metric-card purchase-card">
+              <img src="../assets/img/icons/image 4 (traced).svg" alt="" />
+              <strong>800+</strong>
+              <span>No of Purchased Goods</span>
+              <img class="refresh" src="../assets/img/icons/Refresh Icon.svg" alt="" />
+            </article>
           </div>
-          <div class="dashboard-thq-header-elm">
-            <div class="dashboard-thq-options-elm">
-              <button class="dashboard-thq-button-pos-elm">
-                <img
-                  src="/assets/img/icons/device-laptop.svg"
-                  alt="devicelaptopI9074"
-                  class="dashboard-thq-devicelaptop-elm"
-                />
-                <span class="dashboard-thq-text-elm32 BodyMediumBodymdMedium">
-                  POS
-                </span>
-              </button>
-              <img
-                src="/assets/img/backgrounds/divider9074-bxuw.png"
-                alt="Divider9074"
-                class="dashboard-thq-divider-elm4"
-              />
-            </div>
-          </div>
-        </div>
-        <a href="https://play.teleporthq.io/signup" class="dashboard-link">
-          <div aria-label="Sign up to TeleportHQ" class="dashboard-container2">
-            <svg
-              width="24"
-              height="24"
-              viewBox="0 0 19 21"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              class="dashboard-icon1"
-            >
-              <path
-                d="M9.1017 4.64355H2.17867C0.711684 4.64355 -0.477539 5.79975 -0.477539 7.22599V13.9567C-0.477539 15.3829 0.711684 16.5391 2.17867 16.5391H9.1017C10.5687 16.5391 11.7579 15.3829 11.7579 13.9567V7.22599C11.7579 5.79975 10.5687 4.64355 9.1017 4.64355Z"
-                fill="#B23ADE"
-              ></path>
-              <path
-                d="M10.9733 12.7878C14.4208 12.7878 17.2156 10.0706 17.2156 6.71886C17.2156 3.3671 14.4208 0.649963 10.9733 0.649963C7.52573 0.649963 4.73096 3.3671 4.73096 6.71886C4.73096 10.0706 7.52573 12.7878 10.9733 12.7878Z"
-                fill="#FF5C5C"
-              ></path>
-              <path
-                d="M17.7373 13.3654C19.1497 14.1588 19.1497 15.4634 17.7373 16.2493L10.0865 20.5387C8.67402 21.332 7.51855 20.6836 7.51855 19.0968V10.5141C7.51855 8.92916 8.67402 8.2807 10.0865 9.07221L17.7373 13.3654Z"
-                fill="#2874DE"
-              ></path>
-            </svg>
-            <span class="dashboard-text">Built in TeleportHQ</span>
-          </div>
-        </a>
-      </div>
-      <link
-        rel="canonical"
-        href="https://inventur-26-iyy0gg.teleporthq.site/"
-      />
+        </section>
+      </main>
     </div>
   </body>
 </html>
