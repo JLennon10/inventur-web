@@ -27,14 +27,16 @@
 .signin-card h1 {
   margin: 0 0 8px;
   color: var(--text);
-  font-size: 26px;
-  font-weight: 800;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
 }
 
 .signin-card p {
   margin: 0 0 28px;
   color: var(--muted);
   font-size: 16px;
+  line-height: 24px;
 }
 
 .signin-card form {
@@ -45,10 +47,19 @@
 .signin-card label {
   display: grid;
   gap: 8px;
+  font-size: 14px;
+  line-height: 21px;
   font-weight: 700;
 }
 
-.signin-card label span {
+.signin-card .field-label {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  width: fit-content;
+}
+
+.signin-card .required {
   color: #ff0000;
 }
 

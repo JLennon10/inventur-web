@@ -15,14 +15,15 @@
 .dashboard-greeting h1 {
   margin: 0;
   color: var(--heading);
-  font-size: 22px;
-  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 700;
 }
 
 .dashboard-greeting h1 span {
   color: var(--text);
-  font-size: 17px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .metric-grid {
@@ -43,20 +44,23 @@
 .earning-card p {
   margin: 0 0 14px;
   color: var(--orange);
-  font-size: 17px;
+  font-size: 14px;
+  line-height: 21px;
   font-weight: 700;
 }
 
 .earning-card strong {
   display: block;
   color: var(--heading);
-  font-size: 28px;
-  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
 }
 
 .earning-card span {
   color: #35b779;
   font-size: 14px;
+  line-height: 21px;
   font-weight: 700;
 }
 
@@ -86,12 +90,14 @@
 }
 
 .metric-card strong {
-  font-size: 26px;
-  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 700;
 }
 
 .metric-card span {
-  font-size: 15px;
+  font-size: 14px;
+  line-height: 21px;
   font-weight: 600;
 }
 

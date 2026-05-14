@@ -47,7 +47,8 @@
   align-items: center;
   gap: 7px;
   font-size: 13px;
-  font-weight: 700;
+  line-height: 19.5px;
+  font-weight: 600;
   transition: 0.2s ease;
 }
 
@@ -79,7 +80,8 @@
   margin: 0;
   color: #212b36;
   font-size: 18px;
-  font-weight: 800;
+  line-height: 24px;
+  font-weight: 700;
 }
 
 .pos-slide-buttons {
@@ -144,12 +146,14 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 14px;
-  font-weight: 800;
+  line-height: 21px;
+  font-weight: 700;
 }
 
 .pos-category span {
   color: #646b72;
   font-size: 14px;
+  line-height: 21px;
 }
 
 .pos-products-head .table-search {
@@ -204,7 +208,8 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 14px;
-  font-weight: 800;
+  line-height: 21px;
+  font-weight: 700;
 }
 
 .pos-product div {
@@ -223,6 +228,7 @@
 .pos-product b {
   color: #0c978f;
   font-size: 14px;
+  line-height: 21px;
 }
 
 .pos-order-panel {
@@ -254,7 +260,8 @@
   margin: 0;
   color: #212b36;
   font-size: 18px;
-  font-weight: 800;
+  line-height: 24px;
+  font-weight: 700;
 }
 
 .pos-order-head p {
@@ -361,6 +368,8 @@
 .pos-billing label {
   display: grid;
   gap: 7px;
+  font-size: 13px;
+  line-height: 18px;
   font-weight: 700;
 }
 
@@ -390,7 +399,9 @@
   place-items: center;
   align-content: center;
   gap: 6px;
-  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 600;
 }
 
 .pos-payment-methods button.active {
@@ -410,7 +421,9 @@
   border-radius: 6px;
   background: #092c4c;
   color: #fff;
-  font-weight: 800;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
 }
 
 .pos-final-actions {
