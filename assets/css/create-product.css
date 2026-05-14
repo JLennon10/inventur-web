@@ -32,7 +32,9 @@
 }
 
 .form-card header img {
-  width: 18px;
+  width: var(--icon-lg);
+  height: var(--icon-lg);
+  object-fit: contain;
 }
 
 .form-grid {
@@ -78,7 +80,7 @@
 
 .input-action button {
   width: 78px;
-  min-height: 42px;
+  min-height: 44px;
   border-radius: 4px;
   background: var(--orange);
   color: #fff;
@@ -127,7 +129,9 @@
 }
 
 .editor img {
-  width: 16px;
+  width: var(--icon-md);
+  height: var(--icon-md);
+  object-fit: contain;
 }
 
 .editor textarea {
@@ -137,6 +141,10 @@
   border: 0;
   resize: vertical;
   outline: 0;
+  color: var(--text);
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
 }
 
 .editor-footer span {
@@ -148,6 +156,8 @@
   display: flex;
   align-items: center;
   gap: 14px;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 .product-type input,
@@ -166,10 +176,15 @@
   place-items: center;
   align-content: center;
   gap: 8px;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 600;
 }
 
 .upload-box img {
-  width: 18px;
+  width: var(--icon-lg);
+  height: var(--icon-lg);
+  object-fit: contain;
 }
 
 .custom-checks {
@@ -179,6 +194,8 @@
   background: #f0f0f0;
   display: flex;
   gap: 22px;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 .form-actions {
