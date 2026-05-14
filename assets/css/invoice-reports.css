@@ -19,7 +19,14 @@
 }
 
 .report-stat img {
-  display: none;
+  position: absolute;
+  left: 36px;
+  top: 50%;
+  width: 24px;
+  height: 24px;
+  transform: translateY(-50%);
+  filter: brightness(0) invert(1);
+  object-fit: contain;
 }
 
 .report-stat::before {
@@ -28,20 +35,7 @@
   height: 48px;
   flex: 0 0 48px;
   border-radius: 10px;
-  background-color: var(--stat-color);
-}
-
-.report-stat::after {
-  content: "";
-  position: absolute;
-  left: 36px;
-  top: 50%;
-  width: 24px;
-  height: 24px;
-  background: #fff;
-  transform: translateY(-50%);
-  mask: var(--stat-icon) center / contain no-repeat;
-  -webkit-mask: var(--stat-icon) center / contain no-repeat;
+  background: var(--stat-color);
 }
 
 .report-stat div {
@@ -68,25 +62,21 @@
 
 .report-stat.green {
   --stat-color: #35b779;
-  --stat-icon: url("../img/icons/align-box-bottom-left-filled.svg");
   border-color: var(--stat-color);
 }
 
 .report-stat.blue {
   --stat-color: #175cff;
-  --stat-icon: url("../img/icons/cash-banknote.svg");
   border-color: var(--stat-color);
 }
 
 .report-stat.orange {
   --stat-color: #e65103;
-  --stat-icon: url("../img/icons/moneybag.svg");
   border-color: var(--stat-color);
 }
 
 .report-stat.red {
   --stat-color: #ff0000;
-  --stat-icon: url("../img/icons/alert-circle-filled.svg");
   border-color: var(--stat-color);
 }
 

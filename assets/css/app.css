@@ -142,46 +142,18 @@ img {
   width: var(--icon-md);
   height: var(--icon-md);
   object-fit: contain;
-}
-
-.app-nav .nav-link::before {
-  content: "";
-  width: var(--icon-md);
-  height: var(--icon-md);
-  flex: 0 0 var(--icon-md);
-  background: currentColor;
-  mask: center / contain no-repeat;
-  -webkit-mask: center / contain no-repeat;
-}
-
-.app-nav .nav-link img {
-  display: none;
-}
-
-.app-nav .nav-link[href="./dashboard.html"]::before {
-  mask-image: url("../img/icons/layout-grid-neutral.svg");
-  -webkit-mask-image: url("../img/icons/layout-grid-neutral.svg");
-}
-
-.app-nav .nav-link[href="./products.html"]::before {
-  mask-image: url("../img/icons/box.svg");
-  -webkit-mask-image: url("../img/icons/box.svg");
-}
-
-.app-nav .nav-link[href="./invoice-reports.html"]::before {
-  mask-image: url("../img/icons/invoice-report.svg");
-  -webkit-mask-image: url("../img/icons/invoice-report.svg");
-}
-
-.app-nav .nav-link[href="./sign-in.html"]::before {
-  mask-image: url("../img/icons/logout.svg");
-  -webkit-mask-image: url("../img/icons/logout.svg");
+  transition: filter 0.2s ease;
 }
 
 .nav-link:hover,
 .nav-link.active {
   color: var(--orange);
   background: #fff7f0;
+}
+
+.nav-link:hover img,
+.nav-link.active img {
+  filter: brightness(0) saturate(100%) invert(74%) sepia(91%) saturate(1271%) hue-rotate(325deg) brightness(101%) contrast(99%);
 }
 
 .app-main {
