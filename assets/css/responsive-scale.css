@@ -1,0 +1,162 @@
+/* ============================================================
+   RESPONSIVE SCALE — biar semua page 100% di layar normal
+   Tambahkan <link rel="stylesheet" href="responsive-scale.css">
+   ke semua HTML, SETELAH semua CSS lain.
+   ============================================================ */
+
+/* 1. Reset body & html agar tidak ada scrollbar horizontal */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* 2. Scale wrapper utama setiap page agar mengisi viewport */
+
+/* Semua container level-1 (wrapper terluar) */
+.sign-in-container1,
+.dashboard-container1,
+.products-container1,
+.invoice-report-container1,
+.pos-container1,
+.create-products-container1 {
+  width: 100% !important;
+  min-height: 100vh !important;
+  overflow-x: hidden !important;
+}
+
+/* 3. Elemen utama page (yang punya fixed width 1440px atau fixed height)
+   — buat jadi full-width & auto-height */
+
+.sign-in-thq-sign-in-elm,
+.dashboard-thq-dashboard-elm,
+.products-thq-products-elm,
+.invoice-report-thq-invoice-report-elm,
+.pos-thq-pos-elm,
+.create-products-thq-create-products-elm {
+  width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 100vh !important;
+  overflow: visible !important;
+}
+
+/* 4. SIGN-IN: form card centered, background vector stretch */
+.sign-in-thq-vector-elm {
+  width: 100% !important;
+  left: 0 !important;
+}
+
+.sign-in-thq-inventur-elm {
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+
+.sign-in-thq-container-elm {
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  top: 50% !important;
+  margin-top: -160px !important; /* offset supaya kira-kira vertikal tengah */
+}
+
+/* 5. DASHBOARD / PRODUCTS / INVOICE / CREATE-PRODUCT:
+   Sidebar tetap, main content mengisi sisa lebar */
+
+/* Sidebar absolute → tetap di kiri */
+.dashboard-thq-sidebar-elm,
+.products-thq-sidebar-elm,
+.invoice-report-thq-sidebar-elm,
+.create-products-thq-sidebar-elm {
+  position: fixed !important;  /* fix di layar agar tidak ikut scroll */
+  top: 0 !important;
+  left: 0 !important;
+  height: 100vh !important;
+  z-index: 50 !important;
+  overflow-y: auto !important;
+}
+
+/* Header absolute → stretch full-width dari sidebar kanan */
+.dashboard-thq-header-elm,
+.products-thq-header-elm,
+.invoice-report-thq-header-elm,
+.create-products-thq-header-elm {
+  position: fixed !important;
+  top: 0 !important;
+  left: 252px !important;
+  right: 0 !important;
+  width: auto !important;
+  z-index: 40 !important;
+}
+
+/* Main content containers → margin-left untuk sidebar, auto-width */
+.dashboard-thq-main-container-elm1 {
+  position: static !important;
+  margin-left: 276px !important;
+  margin-top: 89px !important;
+  width: auto !important;
+  padding-right: 24px !important;
+  padding-bottom: 40px !important;
+}
+
+.products-thq-main-container-elm {
+  margin-left: 276px !important;
+  margin-top: 80px !important;
+  width: auto !important;
+}
+
+.invoice-report-thq-frame1321318195-elm {
+  position: static !important;
+  margin-left: 276px !important;
+  margin-top: 89px !important;
+  width: auto !important;
+  padding-right: 24px !important;
+  padding-bottom: 40px !important;
+}
+
+/* create-product main content — handled by create-product-fixes.css */
+
+
+/* 6. POS — handled by pos-fixes.css */
+/* (rules dipindah ke pos-fixes.css) */
+
+
+/* 7. Semua tabel & elemen yang fixed width → stretch */
+.products-thq-table-elm1,
+.invoice-report-thq-table-elm1,
+.invoice-report-thq-frame1321318215-elm,
+.invoice-report-thq-frame1321318102-elm {
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* 8. Dashboard stats area stretch */
+.dashboard-thq-container-elm10 {
+  flex-wrap: wrap !important;
+}
+
+.dashboard-thq-container-elm11 {
+  flex: 1 !important;
+  min-width: 300px !important;
+  width: auto !important;
+}
+
+/* 9. Divider images yang punya fixed width → stretch */
+.pos-thq-divider-elm12 {
+  width: 100% !important;
+}
+
+/* 10. Elemen absolute di dashboard yang punya fixed left/width */
+.dashboard-thq-options-elm {
+  position: static !important;
+  display: flex !important;
+  justify-content: flex-end !important;
+  width: 100% !important;
+}
+
+/* 11. Create products: wrapper outer */
+.create-products-thq-create-products-elm {
+  display: flex !important;
+  flex-direction: column !important;
+  position: static !important;
+}

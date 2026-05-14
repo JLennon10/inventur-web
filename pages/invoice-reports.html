@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/invoice-reports.css">
+    <link rel="stylesheet" href="../assets/css/responsive-scale.css">
+    <title>exported project</title>
+    <meta property="og:title" content="exported project" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <link rel="stylesheet" href="/assets/css/responsive-scale.css">
+</head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="invoice-report-container1">
+        <div class="invoice-report-thq-invoice-report-elm">
+          <div class="invoice-report-thq-frame1321318195-elm">
+            <div class="invoice-report-thq-frame1321318188-elm">
+              <div class="invoice-report-thq-pagetitlewithsubtitle-elm">
+                <div class="invoice-report-thq-breadcrum-elm">
+                  <span class="invoice-report-thq-text-elm100 HeadingsHeading4">
+                    Invoice Report
+                  </span>
+                  <div class="invoice-report-thq-breadcrumb-container-elm">
+                    <div class="invoice-report-thq-breadcrumb-item-elm1">
+                      <span
+                        class="invoice-report-thq-text-elm101 BodyLargeBodylgRegular"
+                      >
+                        Dashboard
+                      </span>
+                    </div>
+                    <img
+                      alt="ChevronIconI9068"
+                      src="/assets/img/icons/Chevron Icon.svg"
+                      class="invoice-report-thq-chevron-icon-elm"
+                    />
+                    <div class="invoice-report-thq-breadcrumb-item-elm2">
+                      <span
+                        class="invoice-report-thq-text-elm102 BodyLargeBodylgRegular"
+                      >
+                        Invoice Report
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="invoice-report-thq-options-elm1">
+                <div class="invoice-report-thq-refresh-elm1">
+                  <img
+                    alt="refresh9068"
+                    src="/assets/img/icons/Refresh Icon.svg"
+                    class="invoice-report-thq-refresh-elm2"
+                  />
+                </div>
+                <div class="invoice-report-thq-collapse-elm">
+                  <img
+                    alt="chevronup9068"
+                    src="/assets/img/icons/chevron-up.svg"
+                    class="invoice-report-thq-chevronup-elm"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="invoice-report-thq-frame1321318215-elm">
+              <div class="invoice-report-thq-frame1321318211-elm">
+                <div class="invoice-report-thq-frame1321318220-elm1">
+                  <div class="invoice-report-thq-frame1321318210-elm1">
+                    <div class="invoice-report-thq-frame1321318219-elm1">
+                      <img
+                        alt="alignboxbottomleftfilled9068"
+                        src="/assets/img/icons/align-box-bottom-left-filled.svg"
+                        class="invoice-report-thq-alignboxbottomleftfilled-elm"
+                      />
+                    </div>
+                    <div class="invoice-report-thq-frame1321318233-elm1">
+                      <span
+                        class="invoice-report-thq-text-elm103 BodyExtralargeBodyxlMedium"
+                      >
+                        Total Amount
+                      </span>
+                      <span
+                        class="invoice-report-thq-text-elm104 HeadingsHeading3"
+                      >
+                        $4,56,000
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="invoice-report-thq-frame1321318216-elm">
+                <div class="invoice-report-thq-frame1321318220-elm2">
+                  <div class="invoice-report-thq-frame1321318210-elm2">
+                    <div class="invoice-report-thq-frame1321318219-elm2">
+                      <img
+                        alt="cashbanknote9068"
+                        src="/assets/img/icons/cash-banknote.svg"
+                        class="invoice-report-thq-cashbanknote-elm"
+                      />
+                    </div>
+                    <div class="invoice-report-thq-frame1321318233-elm2">
+                      <span
+                        class="invoice-report-thq-text-elm105 BodyExtralargeBodyxlMedium"
+                      >
+                        Total Paid
+                      </span>
+                      <span
+                        class="invoice-report-thq-text-elm106 HeadingsHeading3"
+                      >
+                        $2,56,42
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="invoice-report-thq-frame1321318217-elm">
+                <div class="invoice-report-thq-frame1321318220-elm3">
+                  <div class="invoice-report-thq-frame1321318210-elm3">
+                    <div class="invoice-report-thq-frame1321318219-elm3">
+                      <img
+                        alt="moneybag9068"
+                        src="/assets/img/icons/moneybag.svg"
+                        class="invoice-report-thq-moneybag-elm"
+                      />
+                    </div>
+                    <div class="invoice-report-thq-frame1321318233-elm3">
+                      <span
+                        class="invoice-report-thq-text-elm107 BodyExtralargeBodyxlMedium"
+                      >
+                        Total Unpaid
+                      </span>
+                      <span
+                        class="invoice-report-thq-text-elm108 HeadingsHeading3"
+                      >
+                        $1,52,45
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="invoice-report-thq-frame1321318218-elm">
+                <div class="invoice-report-thq-frame1321318220-elm4">
+                  <div class="invoice-report-thq-frame1321318210-elm4">
+                    <div class="invoice-report-thq-frame1321318219-elm4">
+                      <img
+                        alt="alertcirclefilled9068"
+                        src="/assets/img/icons/alert-circle-filled.svg"
+                        class="invoice-report-thq-alertcirclefilled-elm"
+                      />
+                    </div>
+                    <div class="invoice-report-thq-frame1321318233-elm4">
+                      <span
+                        class="invoice-report-thq-text-elm109 BodyExtralargeBodyxlMedium"
+                      >
+                        Overdue
+                      </span>
+                      <span
+                        class="invoice-report-thq-text-elm110 HeadingsHeading3"
+                      >
+                        $2,56,12
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="invoice-report-thq-frame1321318102-elm">
+              <div class="invoice-report-thq-frame1321318103-elm">
+                <div class="invoice-report-thq-frame1321318101-elm">
+                  <span
+                    class="invoice-report-thq-text-elm111 BodyLargeBodylgMedium"
+                  >
+                    Choose Date&nbsp;
+                  </span>
+                  <div class="invoice-report-thq-input-elm1">
+                    <img
+                      alt="calendar9068"
+                      src="/assets/img/icons/Calendar Icon.svg"
+                      class="invoice-report-thq-calendar-elm"
+                    />
+                    <span
+                      class="invoice-report-thq-text-elm112 BodyLargeBodylgRegular"
+                    >
+                      01-Jan-2025 - 12-Dec-2025
+                    </span>
+                  </div>
+                </div>
+                <div class="invoice-report-thq-inputwith-select-elm1">
+                  <span
+                    class="invoice-report-thq-text-elm113 BodyLargeBodylgMedium"
+                  >
+                    Customer
+                  </span>
+                  <div class="invoice-report-thq-input-elm2">
+                    <span
+                      class="invoice-report-thq-text-elm114 BodyLargeBodylgRegular"
+                    >
+                      All
+                    </span>
+                    <img
+                      alt="DropdownIconI9068"
+                      src="/assets/img/icons/Dropdown Icon.svg"
+                      class="invoice-report-thq-dropdown-icon-elm1"
+                    />
+                  </div>
+                </div>
+                <div class="invoice-report-thq-inputwith-select-elm2">
+                  <span
+                    class="invoice-report-thq-text-elm115 BodyLargeBodylgMedium"
+                  >
+                    Status
+                  </span>
+                  <div class="invoice-report-thq-input-elm3">
+                    <span
+                      class="invoice-report-thq-text-elm116 BodyLargeBodylgRegular"
+                    >
+                      All
+                    </span>
+                    <img
+                      alt="DropdownIconI9068"
+                      src="/assets/img/icons/Dropdown Icon.svg"
+                      class="invoice-report-thq-dropdown-icon-elm2"
+                    />
+                  </div>
+                </div>
+                <button class="invoice-report-thq-button-elm1">
+                  <span
+                    class="invoice-report-thq-text-elm117 BodyLargeBodylgMedium"
+                  >
+                    Generate Report
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="invoice-report-thq-table-elm1">
+              <div class="invoice-report-thq-table-elm2">
+                <div class="invoice-report-thq-options-elm2">
+                  <span class="invoice-report-thq-text-elm118 HeadingsHeading4">
+                    Inventory Report
+                  </span>
+                  <div class="invoice-report-thq-frame1321318484-elm">
+                    <div class="invoice-report-thq-export-elm">
+                      <div class="invoice-report-thq-as-pdf-elm">
+                        <img
+                          alt="Icon9068"
+                          src="/assets/img/icons/as PDF.svg"
+                          class="invoice-report-thq-icon-elm"
+                        />
+                      </div>
+                      <img
+                        alt="asExcel9068"
+                        src="/assets/img/icons/as Excel.svg"
+                        class="invoice-report-thq-as-excel-elm"
+                      />
+                    </div>
+                    <div class="invoice-report-thq-refresh-elm3">
+                      <img
+                        alt="printer9068"
+                        src="/assets/img/icons/printer.svg"
+                        class="invoice-report-thq-printer-elm"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="invoice-report-thq-table-data-full-view-elm">
+                <table class="inv-table-rebuilt">
+                  <thead>
+                    <tr class="inv-table-header-row">
+                      <th>Invoice Number</th>
+                      <th>Customer</th>
+                      <th>Due Date</th>
+                      <th>Amount</th>
+                      <th>Paid</th>
+                      <th>Amount Due</th>
+                      <th>Status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="inv-table-row">
+                      <td><span class="inv-td-invoice">INV001</span></td>
+                      <td>Carl Evans</td>
+                      <td>24 Dec 2024</td>
+                      <td>$500</td><td>$500</td><td>$500</td>
+                      <td><span class="inv-badge inv-badge-paid">&#8226; Paid</span></td>
+                    </tr>
+                    <tr class="inv-table-row-alt">
+                      <td><span class="inv-td-invoice">INV002</span></td>
+                      <td>Minerva Rameriz</td>
+                      <td class="inv-td-muted">10 Dec 2024</td>
+                      <td class="inv-td-muted">$1500</td><td class="inv-td-muted">$1500</td><td class="inv-td-muted">$1500</td>
+                      <td><span class="inv-badge inv-badge-paid">&#8226; Paid</span></td>
+                    </tr>
+                    <tr class="inv-table-row">
+                      <td><span class="inv-td-invoice">INV003</span></td>
+                      <td>Robert Lamon</td>
+                      <td>27 Nov 2024</td>
+                      <td>$600</td><td>$600</td><td>$600</td>
+                      <td><span class="inv-badge inv-badge-paid">&#8226; Paid</span></td>
+                    </tr>
+                    <tr class="inv-table-row-alt">
+                      <td><span class="inv-td-invoice">INV004</span></td>
+                      <td>Patricia Lewis</td>
+                      <td class="inv-td-muted">18 Nov 2024</td>
+                      <td class="inv-td-muted">$1000</td><td class="inv-td-muted">$1000</td><td class="inv-td-muted">$1000</td>
+                      <td><span class="inv-badge inv-badge-paid">&#8226; Paid</span></td>
+                    </tr>
+                    <tr class="inv-table-row">
+                      <td><span class="inv-td-invoice">INV005</span></td>
+                      <td>Mark Joslyn</td>
+                      <td>06 Nov 2024</td>
+                      <td>$1200</td><td>$1200</td><td>$1200</td>
+                      <td><span class="inv-badge inv-badge-paid">&#8226; Paid</span></td>
+                    </tr>
+                    <tr class="inv-table-row-alt">
+                      <td><span class="inv-td-invoice">INV006</span></td>
+                      <td>Marsha Betts</td>
+                      <td class="inv-td-muted">25 Oct 2024</td>
+                      <td class="inv-td-muted">$800</td><td class="inv-td-muted">$800</td><td class="inv-td-muted">$800</td>
+                      <td><span class="inv-badge inv-badge-paid">&#8226; Paid</span></td>
+                    </tr>
+                    <tr class="inv-table-row">
+                      <td><span class="inv-td-invoice">INV007</span></td>
+                      <td>Daniel Jude</td>
+                      <td>14 Oct 2024</td>
+                      <td>$2000</td><td>$2000</td><td>$2000</td>
+                      <td><span class="inv-badge inv-badge-paid">&#8226; Paid</span></td>
+                    </tr>
+                    <tr class="inv-table-row-alt">
+                      <td><span class="inv-td-invoice">INV008</span></td>
+                      <td>Emma Bates</td>
+                      <td class="inv-td-muted">03 Oct 2024</td>
+                      <td class="inv-td-muted">$100</td><td class="inv-td-muted">$100</td><td class="inv-td-muted">$100</td>
+                      <td><span class="inv-badge inv-badge-paid">&#8226; Paid</span></td>
+                    </tr>
+                    <tr class="inv-table-row">
+                      <td><span class="inv-td-invoice">INV009</span></td>
+                      <td>Richard Fralick</td>
+                      <td>20 Sep 2024</td>
+                      <td>$300</td><td>$300</td><td>$300</td>
+                      <td><span class="inv-badge inv-badge-paid">&#8226; Paid</span></td>
+                    </tr>
+                    <tr class="inv-table-row-alt">
+                      <td><span class="inv-td-invoice">INV010</span></td>
+                      <td>Michelle Robison</td>
+                      <td class="inv-td-muted">10 Sep 2024</td>
+                      <td class="inv-td-muted">$5000</td><td class="inv-td-muted">$5000</td><td class="inv-td-muted">$5000</td>
+                      <td><span class="inv-badge inv-badge-unpaid">&#8226; Unpaid</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+                            <div class="invoice-report-thq-table-elm3">
+                <div class="invoice-report-thq-content-elm20">
+                  <span
+                    class="invoice-report-thq-text-elm196 BodyLargeBodylgRegular"
+                  >
+                    Row Per Page
+                  </span>
+                  <div class="invoice-report-thq-select-options-elm">
+                    <div class="invoice-report-thq-border-dropdown-elm">
+                      <span
+                        class="invoice-report-thq-text-elm197 BodySmallBodysmRegular"
+                      >
+                        10
+                      </span>
+                      <img
+                        alt="RowsPerPageDropdownI9068"
+                        src="/assets/img/icons/Rows Per Page Dropdown.svg"
+                        class="invoice-report-thq-rows-per-page-dropdown-elm"
+                      />
+                    </div>
+                  </div>
+                  <span
+                    class="invoice-report-thq-text-elm198 BodyLargeBodylgRegular"
+                  >
+                    Entries
+                  </span>
+                </div>
+                <div class="invoice-report-thq-pagination-elm">
+                  <img
+                    alt="PreviousPageI9068"
+                    src="/assets/img/icons/Previous Page.svg"
+                    class="invoice-report-thq-previous-page-elm"
+                  />
+                  <div class="invoice-report-thq-pagination-table-elm">
+                    <div class="invoice-report-thq-default-elm1">
+                      <div
+                        class="invoice-report-thq-auto-layout-vertical-elm1"
+                      ><span class="invoice-report-thq-text-elm199 BodySmallBodysmRegular">1</span></div>
+                    </div>
+                    <div class="invoice-report-thq-default-elm2">
+                      <div
+                        class="invoice-report-thq-auto-layout-vertical-elm2"
+                      ><span class="invoice-report-thq-text-elm199 BodySmallBodysmRegular">2</span></div>
+                    </div>
+                    <div class="invoice-report-thq-default-elm3">
+                      <div
+                        class="invoice-report-thq-auto-layout-vertical-elm3"
+                      ><span class="invoice-report-thq-text-elm199 BodySmallBodysmRegular">3</span></div>
+                    </div>
+                    <div class="invoice-report-thq-default-elm4">
+                      <div
+                        class="invoice-report-thq-auto-layout-vertical-elm4"
+                      ><span style="color:#fff;font-size:12px;font-family:Nunito Sans;font-weight:600;">4</span></div>
+                    </div>
+                    <img
+                      alt="PageEllipsisI9068"
+                      src="/assets/img/icons/Page Ellipsis.svg"
+                      class="invoice-report-thq-page-ellipsis-elm"
+                    />
+                    <div class="invoice-report-thq-default-elm5">
+                      <div class="invoice-report-thq-auto-layout-vertical-elm5">
+                        <span
+                          class="invoice-report-thq-text-elm199 BodySmallBodysmRegular"
+                        >
+                          15
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                    alt="NextPageI9068"
+                    src="/assets/img/icons/Next Page.svg"
+                    class="invoice-report-thq-next-page-elm"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="invoice-report-thq-sidebar-elm">
+            <div class="invoice-report-thq-body-elm">
+              <div class="invoice-report-thq-container-main-elm">
+                <span
+                  class="invoice-report-thq-text-elm200 BodySmallBodysmSemibold"
+                >
+                  Main
+                </span>
+                <div class="invoice-report-thq-menus-elm1">
+                  <div class="invoice-report-thq-menu-elm1">
+                    <div class="invoice-report-thq-content-elm21">
+                      <img
+                        alt="layoutgrid9094"
+                        src="/assets/img/icons/layout-grid.svg"
+                        class="invoice-report-thq-layoutgrid-elm"
+                      />
+                      <span
+                        class="invoice-report-thq-text-elm201 BodyLargeBodylgMedium"
+                      >
+                        Dashboard
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                alt="Divider9094"
+                src="/assets/img/backgrounds/divider9074-bxuw.png"
+                class="invoice-report-thq-divider-elm1"
+              />
+              <div class="invoice-report-thq-container-inventory-elm">
+                <span
+                  class="invoice-report-thq-text-elm202 BodySmallBodysmBold"
+                >
+                  Inventory
+                </span>
+                <div class="invoice-report-thq-menus-elm2">
+                  <div class="invoice-report-thq-menu-elm2">
+                    <div class="invoice-report-thq-content-elm22">
+                      <img
+                        alt="box9094"
+                        src="/assets/img/backgrounds/box.svg"
+                        class="invoice-report-thq-box-elm"
+                      />
+                      <span
+                        class="invoice-report-thq-text-elm203 BodyLargeBodylgMedium"
+                      >
+                        Products
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                alt="Divider9094"
+                src="/assets/img/backgrounds/divider9074-bxuw.png"
+                class="invoice-report-thq-divider-elm2"
+              />
+              <div class="invoice-report-thq-container-report-elm">
+                <span
+                  class="invoice-report-thq-text-elm204 BodySmallBodysmBold"
+                >
+                  Reports
+                </span>
+                <div class="invoice-report-thq-menus-elm3">
+                  <div class="invoice-report-thq-menu-elm3 invoice-report-thq-menu-active">
+                    <div class="invoice-report-thq-content-elm23">
+                      <img
+                        alt="businessplan9094"
+                        src="/assets/img/icons/businessplan.svg"
+                        class="invoice-report-thq-businessplan-elm"
+                      />
+                      <span
+                        class="invoice-report-thq-text-elm205 BodyLargeBodylgMedium"
+                      >
+                        Invoice Report
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                alt="Divider9094"
+                src="/assets/img/backgrounds/divider9074-bxuw.png"
+                class="invoice-report-thq-divider-elm3"
+              />
+              <div class="invoice-report-thq-container-settings-elm">
+                <span
+                  class="invoice-report-thq-text-elm206 BodySmallBodysmBold"
+                >
+                  Settings
+                </span>
+                <div class="invoice-report-thq-menus-elm4">
+                  <div class="invoice-report-thq-menu-elm4">
+                    <div class="invoice-report-thq-content-elm24">
+                      <img
+                        alt="logout9094"
+                        src="/assets/img/icons/Logout.svg"
+                        class="invoice-report-thq-logout-elm"
+                      />
+                      <span
+                        class="invoice-report-thq-text-elm207 BodyLargeBodylgMedium"
+                      >
+                        Logout
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="invoice-report-thq-title-elm">
+              <img
+                alt="Logo9094"
+                src="/assets/img/Logo.svg"
+                class="invoice-report-thq-logo-elm"
+              />
+            </div>
+          </div>
+          <div class="invoice-report-thq-header-elm">
+            <div class="invoice-report-thq-options-elm3">
+              <button class="invoice-report-thq-button-elm3">
+                <img
+                  alt="devicelaptopI9074"
+                  src="/assets/img/icons/device-laptop.svg"
+                  class="invoice-report-thq-devicelaptop-elm"
+                />
+                <span class="invoice-report-thq-text-elm208 BodyMediumBodymdMedium">POS</span>
+              </button>
+              <img
+                src="/assets/img/backgrounds/divider9074-bxuw.png"
+                alt="Divider"
+                class="invoice-report-thq-divider-elm4"
+              />
+            </div>
+          </div>
+    </div>
+  </body>
+</html>

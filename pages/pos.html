@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/pos.css">
+    <link rel="stylesheet" href="../assets/css/responsive-scale.css">
+    <title>exported project</title>
+    <meta property="og:title" content="exported project" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <link rel="stylesheet" href="/assets/css/responsive-scale.css">
+    <link rel="stylesheet" href="/assets/css/pos-fixes.css">
+</head>
+  <body>
+    <div>
+      <div class="pos-container1">
+        <div class="pos-thq-pos-elm">
+          <div class="pos-thq-right-side-content-elm">
+            <div class="pos-thq-title-section-elm1">
+              <div class="pos-thq-title-row-elm">
+                <div class="pos-thq-row-left-elm">
+                  <span class="pos-thq-text-elm100 HeadingH3">Order List</span>
+                  <span class="pos-thq-text-elm101 BodytitleSub">Id : #0</span>
+                </div>
+                <img
+                  src="/assets/img/icons/trash-x-filled.svg"
+                  alt="trashxfilled9068"
+                  class="pos-thq-trashxfilled-elm"
+                />
+              </div>
+            </div>
+            <div class="pos-thq-content-product-elm">
+              <div class="pos-thq-content-blank-elm">
+                <div class="pos-thq-no-product-elm1">
+                  <div class="pos-thq-customer-row-elm">
+                    <span class="pos-thq-text-elm102 HeadingsHeading4">
+                      Customer Information
+                    </span>
+                    <div class="pos-thq-forms-elm">
+                      <div class="pos-thq-customer-select-elm">
+                        <div class="pos-thq-inputwith-select-elm1">
+                          <div class="pos-thq-input-elm1">
+                            <span
+                              class="pos-thq-text-elm103 BodyLargeBodylgRegular"
+                            >
+                              Walk In Customer
+                            </span>
+                            <img
+                              src="/assets/img/icons/Dropdown Icon.svg"
+                              alt="DropdownIconI9068"
+                              class="pos-thq-dropdown-icon-elm1"
+                            />
+                          </div>
+                        </div>
+                        <div class="pos-thq-add-customer-elm">
+                          <img
+                            src="/assets/img/icons/user-plus.svg"
+                            alt="userplus9068"
+                            class="pos-thq-userplus-elm"
+                          />
+                        </div>
+                      </div>
+                      <div class="pos-thq-search-product-elm">
+                        <div class="pos-thq-inputwith-select-elm2">
+                          <div class="pos-thq-input-elm2">
+                            <span
+                              class="pos-thq-text-elm104 BodyLargeBodylgRegular"
+                            >
+                              Search Products
+                            </span>
+                            <img
+                              src="/assets/img/icons/Dropdown Icon.svg"
+                              alt="DropdownIconI9068"
+                              class="pos-thq-dropdown-icon-elm2"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                    src="/assets/img/backgrounds/Divider panjang.png"
+                    alt="Divider9068"
+                    class="pos-thq-divider-elm10"
+                  />
+                  <div class="pos-thq-product-row-elm">
+                    <div class="pos-thq-info-product-elm">
+                      <div class="pos-thq-count-product-title-elm">
+                        <span class="pos-thq-text-elm105 HeadingsHeading5">
+                          Product Added
+                        </span>
+                        <div class="pos-thq-count-elm">
+                          <span class="pos-thq-count-badge">0</span>
+                        </div>
+                      </div>
+                      <div class="pos-thq-clearall-elm">
+                        <img
+                          src="/assets/img/icons/x.svg"
+                          alt="x9068"
+                          class="pos-thq-x-elm"
+                        />
+                        <span class="pos-thq-text-elm106">Clear all</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pos-thq-no-product-elm2">
+                    <img
+                      src="/assets/img/icons/shopping-cart.svg"
+                      alt="IconsFeathershoppingcart9068"
+                      class="pos-thq-icons-feathershoppingcart-elm"
+                    />
+                    <span class="pos-thq-text-elm107 BodyBold">
+                      No Products Selected
+                    </span>
+                  </div>
+                </div>
+                <div class="pos-thq-payment-info-elm">
+                  <div class="pos-thq-meta-forms-elm">
+                    <div class="pos-thq-select-elm1">
+                      <span class="pos-thq-text-elm108 BodyRegular">
+                        Order Tax
+                      </span>
+                      <div class="pos-thq-frame977-elm">
+                        <span class="pos-thq-text-elm109">Choose</span>
+                        <svg class="pos-thq-bxchevrondownsvg-elm1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6 9L12 15L18 9" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="pos-thq-select-elm2">
+                      <span class="pos-thq-text-elm110 BodyRegular">
+                        Shipping
+                      </span>
+                      <div class="pos-thq-select-options-elm">
+                        <span class="pos-thq-text-elm110b">0</span>
+                        <svg class="pos-thq-bxchevrondownsvg-elm2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6 9L12 15L18 9" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="pos-thq-percentage-elm1">
+                      <span class="pos-thq-text-elm111 BodyRegular">
+                        Discount
+                      </span>
+                      <div class="pos-thq-select-elm3">
+                        <span class="pos-thq-text-elm111b">%</span>
+                        <svg class="pos-thq-bxchevrondownsvg-elm3" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6 9L12 15L18 9" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span class="pos-thq-text-elm111c">0</span>
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                    src="/assets/img/backgrounds/Divider panjang.png"
+                    alt="Divider9068"
+                    class="pos-thq-divider-elm11"
+                  />
+                  <div class="pos-thq-payment-method-elm">
+                    <span class="pos-thq-text-elm112 HeadingH4">
+                      Payment Method
+                    </span>
+                    <div class="pos-thq-gateways-elm">
+                      <div class="pos-thq-gateways-item-elm1">
+                        <div class="pos-thq-cash-elm">
+                          <img
+                            src="/assets/img/icons/cash-banknote.svg"
+                            alt="cashbanknote9068"
+                            class="pos-thq-cashbanknote-elm"
+                          />
+                          <span class="pos-thq-text-elm113 BodyRegular">
+                            Cash
+                          </span>
+                        </div>
+                      </div>
+                      <div class="pos-thq-gateways-item-elm2">
+                        <div class="pos-thq-debitcard-elm">
+                          <img
+                            src="/assets/img/icons/credit-card.svg"
+                            alt="creditcard9068"
+                            class="pos-thq-creditcard-elm"
+                          />
+                          <span class="pos-thq-text-elm114 BodyRegular">
+                            Debit Card
+                          </span>
+                        </div>
+                      </div>
+                      <div class="pos-thq-gateways-item-elm3">
+                        <div class="pos-thq-scan-elm1">
+                          <img
+                            src="/assets/img/icons/scan.svg"
+                            alt="scan9068"
+                            class="pos-thq-scan-elm2"
+                          />
+                          <span class="pos-thq-text-elm115 BodyRegular">
+                            Scan
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="pos-thq-payment-button-elm">
+                <div class="pos-thq-grandtotal-elm">
+                  <div class="pos-thq-total-elm">
+                    <span class="pos-thq-text-elm116 BodyBold">
+                      Grand Total : $0.00
+                    </span>
+                  </div>
+                </div>
+              </button>
+              <div class="pos-thq-options-elm1">
+                <button class="pos-thq-button-elm1">
+                  <img
+                    src="/assets/img/icons/u_pause-circle.svg"
+                    alt="upausecircle9068"
+                    class="pos-thq-upausecircle-elm"
+                  />
+                  <span class="pos-thq-text-elm117 BodyDefault">Hold</span>
+                </button>
+                <button class="pos-thq-button-elm2">
+                  <img
+                    src="/assets/img/icons/trash-2.svg"
+                    alt="trash29068"
+                    class="pos-thq-trash2-elm"
+                  />
+                  <span class="pos-thq-text-elm118 BodyDefault">Void</span>
+                </button>
+                <button class="pos-thq-button-elm3">
+                  <img
+                    src="/assets/img/icons/u_money-bill.svg"
+                    alt="umoneybill9068"
+                    class="pos-thq-umoneybill-elm"
+                  />
+                  <span class="pos-thq-text-elm119 BodyDefault">Payment</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="pos-thq-left-side-elm">
+            <div class="pos-thq-options-elm2">
+              <div class="pos-thq-options-row-elm">
+                <div class="pos-thq-frame1321318030-elm">
+                  <button class="pos-thq-button-elm4">
+                    <img
+                      src="/assets/img/icons/shopping-cart.svg"
+                      alt="ushoppingcart9068"
+                      class="pos-thq-ushoppingcart-elm"
+                    />
+                    <span class="pos-thq-text-elm120 BodyMediumBodymdMedium">
+                      View Orders
+                    </span>
+                  </button>
+                  <button class="pos-thq-button-elm5">
+                    <img
+                      src="/assets/img/icons/u_redo.svg"
+                      alt="uredo9068"
+                      class="pos-thq-uredo-elm"
+                    />
+                    <span class="pos-thq-text-elm121 BodyMediumBodymdMedium">
+                      Reset
+                    </span>
+                  </button>
+                  <button class="pos-thq-button-elm6">
+                    <img
+                      src="/assets/img/icons/u_refresh.svg"
+                      alt="urefresh9068"
+                      class="pos-thq-urefresh-elm"
+                    />
+                    <span class="pos-thq-text-elm122 BodyMediumBodymdMedium">
+                      Transaction
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="pos-thq-left-side-content-elm">
+              <div class="pos-thq-category-slider-elm">
+                <div class="pos-thq-title-arrow-elm">
+                  <div class="pos-thq-title-section-elm2">
+                    <div class="pos-thq-cardtitlewithsubtitle-elm">
+                      <span class="pos-thq-text-elm123 HeadingsHeading4">
+                        Categories
+                      </span>
+                    </div>
+                  </div>
+                  <div class="pos-thq-arrow-elm">
+                    <div class="pos-thq-left-elm">
+                      <img
+                        src="/assets/img/backgrounds/Ellipse 564.svg"
+                        alt="Ellipse5649068"
+                        class="pos-thq-ellipse564-elm"
+                      />
+                      <img
+                        src="/assets/img/icons/chevron-left.svg"
+                        alt="IconsFeatherchevronleft9068"
+                        class="pos-thq-icons-featherchevronleft-elm"
+                      />
+                    </div>
+                    <div class="pos-thq-right-elm">
+                      <img
+                        src="/assets/img/backgrounds/Ellipse 565.svg"
+                        alt="Ellipse5659068"
+                        class="pos-thq-ellipse565-elm"
+                      />
+                      <img
+                        src="/assets/img/icons/chevron-right.svg"
+                        alt="IconsFeatherchevronright9068"
+                        class="pos-thq-icons-featherchevronright-elm"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="pos-thq-category-row-elm">
+                  <div class="pos-thq-category-item-elm1">
+                    <div class="pos-thq-icon-elm">
+                      <div class="pos-thq-black-elm">
+                        <img
+                         src="/assets/img/categories/Icon categories.svg"
+                         alt="All Categories"
+                         class="pos-thq-vector-elm1"
+                        />
+                      </div>
+                    </div>
+                    <div class="pos-thq-title-elm10">
+                      <span class="pos-thq-text-elm124 BodyLargeBodylgBold">
+                        All Categories
+                      </span>
+                      <span class="pos-thq-text-elm125 BodyLargeBodylgRegular">
+                        54 Items
+                      </span>
+                    </div>
+                  </div>
+                  <div class="pos-thq-category-item-elm2">
+                    <img
+                      src="/assets/img/categories/headphones.png"
+                      alt="image4449068"
+                      class="pos-thq-image444-elm1"
+                    />
+                    <div class="pos-thq-title-elm11">
+                      <span class="pos-thq-text-elm126 BodyLargeBodylgBold">
+                        Headphones
+                      </span>
+                      <span class="pos-thq-text-elm127 BodyLargeBodylgRegular">
+                        4 Items
+                      </span>
+                    </div>
+                  </div>
+                  <div class="pos-thq-category-item-elm3">
+                    <img
+                      src="/assets/img/categories/headphones.png"
+                      alt="image4449068"
+                      class="pos-thq-image444-elm2"
+                    />
+                    <div class="pos-thq-title-elm12">
+                      <span class="pos-thq-text-elm128 BodyLargeBodylgBold">
+                        Headphones
+                      </span>
+                      <span class="pos-thq-text-elm129 BodyLargeBodylgRegular">
+                        4 Items
+                      </span>
+                    </div>
+                  </div>
+                  <div class="pos-thq-category-item-elm4">
+                    <img
+                      src="/assets/img/categories/shoes.png"
+                      alt="image4449068"
+                      class="pos-thq-image444-elm3"
+                    />
+                    <div class="pos-thq-title-elm13">
+                      <span class="pos-thq-text-elm130 BodyLargeBodylgBold">
+                        Shoes
+                      </span>
+                      <span class="pos-thq-text-elm131 BodyLargeBodylgRegular">
+                        14 Items
+                      </span>
+                    </div>
+                  </div>
+                  <div class="pos-thq-category-item-elm5">
+                    <img
+                      src="/assets/img/categories/mobile.png"
+                      alt="image3839068"
+                      class="pos-thq-image383-elm"
+                    />
+                    <div class="pos-thq-title-elm14">
+                      <span class="pos-thq-text-elm132 BodyLargeBodylgBold">
+                        Mobiles
+                      </span>
+                      <span class="pos-thq-text-elm133 BodyLargeBodylgRegular">
+                        7 Items
+                      </span>
+                    </div>
+                  </div>
+                  <div class="pos-thq-category-item-elm6">
+                    <img
+                      src="/assets/img/categories/watches.png"
+                      alt="image4449068"
+                      class="pos-thq-image444-elm4"
+                    />
+                    <div class="pos-thq-title-elm15">
+                      <span class="pos-thq-text-elm134 BodyLargeBodylgBold">
+                        Watches
+                      </span>
+                      <span class="pos-thq-text-elm135 BodyLargeBodylgRegular">
+                        16 Items
+                      </span>
+                    </div>
+                  </div>
+                  <div class="pos-thq-category-item-elm7">
+                    <img
+                      src="/assets/img/categories/Laptops.png"
+                      alt="image4449068"
+                      class="pos-thq-image444-elm5"
+                    />
+                    <div class="pos-thq-title-elm16">
+                      <span class="pos-thq-text-elm136 BodyLargeBodylgBold">
+                        Laptops
+                      </span>
+                      <span class="pos-thq-text-elm137 BodyLargeBodylgRegular">
+                        18 Items
+                      </span>
+                    </div>
+                  </div>
+                  <div class="pos-thq-category-item-elm8">
+                    <img
+                      src="/assets/img/categories/home needs.png"
+                      alt="Image9068"
+                      class="pos-thq-image-elm1"
+                    />
+                    <div class="pos-thq-title-elm17">
+                      <span class="pos-thq-text-elm138 BodyLargeBodylgBold">
+                        Home Needs
+                      </span>
+                      <span class="pos-thq-text-elm139 BodyLargeBodylgRegular">
+                        12 Items
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                src="/assets/img/backgrounds/Divider panjang.png"
+                alt="Divider9068"
+                class="pos-thq-divider-elm12"
+              />
+              <div class="pos-thq-product-section-category-elm">
+                <div class="pos-thq-title-elm18">
+                  <span class="pos-thq-text-elm140 HeadingsHeading4">
+                    Products
+                  </span>
+                  <div class="pos-thq-search-inputtable-elm">
+                    <div class="pos-thq-input-icon-elm">
+                      <img
+                        src="/assets/img/icons/search.svg"
+                        alt="search9068"
+                        class="pos-thq-search-elm"
+                      />
+                      <span class="pos-thq-text-elm141 BodySmallBodysmRegular">
+                        Search Product
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="pos-thq-item-section-elm">
+                  <div class="pos-thq-row-elm1">
+                    <div class="pos-thq-product-item-elm10">
+                      <div class="pos-thq-product-inner-elm10">
+                        <img
+                          src="/assets/img/backgrounds/Bg 9068.png"
+                          alt="Bg9068"
+                          class="pos-thq-bg-elm10"
+                        />
+                        <div class="pos-thq-content-elm10">
+                          <div class="pos-thq-row-content-elm10">
+                            <span
+                              class="pos-thq-text-elm142 BodyLargeBodylgRegular"
+                            >
+                              Mobiles
+                            </span>
+                            <div class="pos-thq-title-elm19">
+                              <span
+                                class="pos-thq-text-elm143 BodyLargeBodylgBold"
+                              >
+                                IPhone 14 64GB
+                              </span>
+                            </div>
+                          </div>
+                          <img
+                            src="/assets/img/backgrounds/Divider product.png"
+                            alt="Divider9068"
+                            class="pos-thq-divider-elm13"
+                          />
+                          <div class="pos-thq-rates-content-elm10">
+                            <span
+                              class="pos-thq-text-elm144 BodyLargeBodylgRegular"
+                            >
+                              30 Pcs
+                            </span>
+                            <span
+                              class="pos-thq-text-elm145 BodyLargeBodylgBold"
+                            >
+                              $15800
+                            </span>
+                          </div>
+                        </div>
+                        <img
+                          src="/assets/img/products/iphone.png"
+                          alt="ProductImage9068"
+                          class="pos-thq-product-image-elm"
+                        />
+                      </div>
+                    </div>
+                    <div class="pos-thq-product-item-elm11">
+                      <div class="pos-thq-product-inner-elm11">
+                        <img
+                          src="/assets/img/backgrounds/Bg 9068.png"
+                          alt="Bg9068"
+                          class="pos-thq-bg-elm11"
+                        />
+                        <img
+                          src="/assets/img/products/macbook pro.png"
+                          alt="image9068"
+                          class="pos-thq-image-elm2"
+                        />
+                        <div class="pos-thq-content-elm11">
+                          <div class="pos-thq-row-content-elm11">
+                            <span
+                              class="pos-thq-text-elm146 BodyLargeBodylgRegular"
+                            >
+                              Computer
+                            </span>
+                            <div class="pos-thq-title-elm20">
+                              <span
+                                class="pos-thq-text-elm147 BodyLargeBodylgBold"
+                              >
+                                MacBook Pro
+                              </span>
+                            </div>
+                          </div>
+                          <img
+                            src="/assets/img/backgrounds/Divider product.png"
+                            alt="Divider9068"
+                            class="pos-thq-divider-elm14"
+                          />
+                          <div class="pos-thq-rates-content-elm11">
+                            <span
+                              class="pos-thq-text-elm148 BodyLargeBodylgRegular"
+                            >
+                              140 Pcs
+                            </span>
+                            <span
+                              class="pos-thq-text-elm149 BodyLargeBodylgBold"
+                            >
+                              $1000
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="pos-thq-product-item-elm12">
+                      <div class="pos-thq-product-inner-elm12">
+                        <img
+                          src="/assets/img/backgrounds/Bg 9068.png"
+                          alt="Bg9068"
+                          class="pos-thq-bg-elm12"
+                        />
+                        <img
+                          src="/assets/img/products/rolex tribute v3.png"
+                          alt="image3799068"
+                          class="pos-thq-image379-elm"
+                        />
+                        <div class="pos-thq-content-elm12">
+                          <div class="pos-thq-row-content-elm12">
+                            <span
+                              class="pos-thq-text-elm150 BodyLargeBodylgRegular"
+                            >
+                              Watches
+                            </span>
+                            <div class="pos-thq-title-elm21">
+                              <span
+                                class="pos-thq-text-elm151 BodyLargeBodylgBold"
+                              >
+                                Rolex Tribute V3
+                              </span>
+                            </div>
+                          </div>
+                          <img
+                            src="/assets/img/backgrounds/Divider product.png"
+                            alt="Divider9068"
+                            class="pos-thq-divider-elm15"
+                          />
+                          <div class="pos-thq-rates-content-elm12">
+                            <span
+                              class="pos-thq-text-elm152 BodyLargeBodylgRegular"
+                            >
+                              220 Pcs
+                            </span>
+                            <span
+                              class="pos-thq-text-elm153 BodyLargeBodylgBold"
+                            >
+                              $6800
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="pos-thq-product-item-elm13">
+                      <div class="pos-thq-product-inner-elm13">
+                        <img
+                          src="/assets/img/backgrounds/Bg 9068.png"
+                          alt="Bg9068"
+                          class="pos-thq-bg-elm13"
+                        />
+                        <div class="pos-thq-content-elm13">
+                          <div class="pos-thq-row-content-elm13">
+                            <span
+                              class="pos-thq-text-elm154 BodyLargeBodylgRegular"
+                            >
+                              Shoes
+                            </span>
+                            <div class="pos-thq-title-elm22">
+                              <span
+                                class="pos-thq-text-elm155 BodyLargeBodylgBold"
+                              >
+                                Red Nike Angelo
+                              </span>
+                            </div>
+                          </div>
+                          <img
+                            src="/assets/img/backgrounds/Divider product.png"
+                            alt="Divider9068"
+                            class="pos-thq-divider-elm16"
+                          />
+                          <div class="pos-thq-rates-content-elm13">
+                            <span
+                              class="pos-thq-text-elm156 BodyLargeBodylgRegular"
+                            >
+                              220 Pcs
+                            </span>
+                            <span
+                              class="pos-thq-text-elm157 BodyLargeBodylgRegular"
+                            >
+                              78 Pcs
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="/assets/img/products/red nike angelo.png"
+                        alt="image3809068"
+                        class="pos-thq-image380-elm"
+                      />
+                    </div>
+                    <div class="pos-thq-product-item-elm14">
+                      <div class="pos-thq-product-inner-elm14">
+                        <img
+                          src="/assets/img/backgrounds/Bg 9068.png"
+                          alt="Bg9068"
+                          class="pos-thq-bg-elm14"
+                        />
+                        <img
+                          src="/assets/img/products/airpod 2.png"
+                          alt="image3859068"
+                          class="pos-thq-image385-elm"
+                        />
+                        <div class="pos-thq-content-elm14">
+                          <div class="pos-thq-row-content-elm14">
+                            <span
+                              class="pos-thq-text-elm158 BodyLargeBodylgRegular"
+                            >
+                              Headphones
+                            </span>
+                            <div class="pos-thq-title-elm23">
+                              <span
+                                class="pos-thq-text-elm159 BodyLargeBodylgBold"
+                              >
+                                Airpod 2
+                              </span>
+                            </div>
+                          </div>
+                          <img
+                            src="/assets/img/backgrounds/Divider product.png"
+                            alt="Divider9068"
+                            class="pos-thq-divider-elm17"
+                          />
+                          <div class="pos-thq-rates-content-elm14">
+                            <span
+                              class="pos-thq-text-elm160 BodyLargeBodylgRegular"
+                            >
+                              47 Pcs
+                            </span>
+                            <span
+                              class="pos-thq-text-elm161 BodyLargeBodylgBold"
+                            >
+                              $5478
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pos-thq-row-elm2">
+                    <div class="pos-thq-product-item-elm15">
+                      <div class="pos-thq-product-inner-elm15">
+                        <img
+                          src="/assets/img/backgrounds/Bg 9068.png"
+                          alt="Bg9068"
+                          class="pos-thq-bg-elm15"
+                        />
+                        <img
+                          src="/assets/img/products/blue white ogr.png"
+                          alt="image4469068"
+                          class="pos-thq-image446-elm"
+                        />
+                        <div class="pos-thq-content-elm15">
+                          <div class="pos-thq-row-content-elm15">
+                            <span
+                              class="pos-thq-text-elm162 BodyLargeBodylgRegular"
+                            >
+                              Shoes
+                            </span>
+                            <div class="pos-thq-title-elm24">
+                              <span
+                                class="pos-thq-text-elm163 BodyLargeBodylgBold"
+                              >
+                                Blue White OGR
+                              </span>
+                            </div>
+                          </div>
+                          <img
+                            src="/assets/img/backgrounds/Divider product.png"
+                            alt="Divider9068"
+                            class="pos-thq-divider-elm18"
+                          />
+                          <div class="pos-thq-rates-content-elm15">
+                            <span
+                              class="pos-thq-text-elm164 BodyLargeBodylgRegular"
+                            >
+                              30 Pcs
+                            </span>
+                            <span
+                              class="pos-thq-text-elm165 BodyLargeBodylgBold"
+                            >
+                              $987
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="pos-thq-product-item-elm16">
+                      <div class="pos-thq-product-inner-elm16">
+                        <img
+                          src="/assets/img/backgrounds/Bg 9068.png"
+                          alt="Bg9068"
+                          class="pos-thq-bg-elm16"
+                        />
+                        <img
+                          src="/assets/img/products/ideaped slim 5.png"
+                          alt="image4479068"
+                          class="pos-thq-image447-elm1"
+                        />
+                        <div class="pos-thq-content-elm16">
+                          <div class="pos-thq-row-content-elm16">
+                            <span
+                              class="pos-thq-text-elm166 BodyLargeBodylgRegular"
+                            >
+                              Computer
+                            </span>
+                            <div class="pos-thq-title-elm25">
+                              <span
+                                class="pos-thq-text-elm167 BodyLargeBodylgBold"
+                              >
+                                IdeaPad Slim 5 Gen 7
+                              </span>
+                            </div>
+                          </div>
+                          <img
+                            src="/assets/img/backgrounds/Divider product.png"
+                            alt="Divider9068"
+                            class="pos-thq-divider-elm19"
+                          />
+                          <div class="pos-thq-rates-content-elm16">
+                            <span
+                              class="pos-thq-text-elm168 BodyLargeBodylgRegular"
+                            >
+                              74 Pcs
+                            </span>
+                            <span
+                              class="pos-thq-text-elm169 BodyLargeBodylgBold"
+                            >
+                              $1454
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="pos-thq-product-item-elm17">
+                      <div class="pos-thq-product-inner-elm17">
+                        <img
+                          src="/assets/img/backgrounds/Bg 9068.png"
+                          alt="Bg9068"
+                          class="pos-thq-bg-elm17"
+                        />
+                        <img
+                          src="/assets/img/products/swagme.png"
+                          alt="image4489068"
+                          class="pos-thq-image448-elm"
+                        />
+                        <div class="pos-thq-content-elm17">
+                          <div class="pos-thq-row-content-elm17">
+                            <span
+                              class="pos-thq-text-elm170 BodyLargeBodylgRegular"
+                            >
+                              Headphones
+                            </span>
+                            <div class="pos-thq-title-elm26">
+                              <span
+                                class="pos-thq-text-elm171 BodyLargeBodylgBold"
+                              >
+                                SWAGME
+                              </span>
+                            </div>
+                          </div>
+                          <img
+                            src="/assets/img/backgrounds/Divider product.png"
+                            alt="Divider9068"
+                            class="pos-thq-divider-elm20"
+                          />
+                          <div class="pos-thq-rates-content-elm17">
+                            <span
+                              class="pos-thq-text-elm172 BodyLargeBodylgRegular"
+                            >
+                              14 Pcs
+                            </span>
+                            <span
+                              class="pos-thq-text-elm173 BodyLargeBodylgBold"
+                            >
+                              $6587
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="pos-thq-product-item-elm18">
+                      <div class="pos-thq-product-inner-elm18">
+                        <img
+                          src="/assets/img/backgrounds/Bg 9068.png"
+                          alt="Bg9068"
+                          class="pos-thq-bg-elm18"
+                        />
+                        <img
+                          src="/assets/img/products/red nike angelo 1457.png"
+                          alt="image4499068"
+                          class="pos-thq-image449-elm"
+                        />
+                        <div class="pos-thq-content-elm18">
+                          <div class="pos-thq-row-content-elm18">
+                            <span
+                              class="pos-thq-text-elm174 BodyLargeBodylgRegular"
+                            >
+                              Shoes
+                            </span>
+                            <div class="pos-thq-title-elm27">
+                              <span
+                                class="pos-thq-text-elm175 BodyLargeBodylgBold"
+                              >
+                                Red Nike Angelo
+                              </span>
+                            </div>
+                          </div>
+                          <img
+                            src="/assets/img/backgrounds/Divider product.png"
+                            alt="Divider9068"
+                            class="pos-thq-divider-elm21"
+                          />
+                          <div class="pos-thq-rates-content-elm18">
+                            <span
+                              class="pos-thq-text-elm176 BodyLargeBodylgRegular"
+                            >
+                              220 Pcs
+                            </span>
+                            <span
+                              class="pos-thq-text-elm177 BodyLargeBodylgBold"
+                            >
+                              $1457
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="pos-thq-product-item-elm19">
+                      <div class="pos-thq-product-inner-elm19">
+                        <img
+                          src="/assets/img/backgrounds/Bg 9068.png"
+                          alt="Bg9068"
+                          class="pos-thq-bg-elm19"
+                        />
+                        <img
+                          src="/assets/img/products/tab.png"
+                          alt="image4509068"
+                          class="pos-thq-image450-elm"
+                        />
+                        <div class="pos-thq-content-elm19">
+                          <div class="pos-thq-row-content-elm19">
+                            <span
+                              class="pos-thq-text-elm178 BodyLargeBodylgRegular"
+                            >
+                              Computer
+                            </span>
+                            <div class="pos-thq-title-elm28">
+                              <span
+                                class="pos-thq-text-elm179 BodyLargeBodylgBold"
+                              >
+                                Tablet 1.02 inch
+                              </span>
+                            </div>
+                          </div>
+                          <img
+                            src="/assets/img/backgrounds/Divider product.png"
+                            alt="Divider9068"
+                            class="pos-thq-divider-elm22"
+                          />
+                          <div class="pos-thq-rates-content-elm19">
+                            <span
+                              class="pos-thq-text-elm180 BodyLargeBodylgRegular"
+                            >
+                              47 Pcs
+                            </span>
+                            <span
+                              class="pos-thq-text-elm181 BodyLargeBodylgBold"
+                            >
+                              $4744
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pos-thq-row-elm3">
+                    <div class="pos-thq-product-item-elm20">
+                      <div class="pos-thq-product-inner-elm20">
+                        <img
+                          src="/assets/img/backgrounds/Bg 9068.png"
+                          alt="Bg9068"
+                          class="pos-thq-bg-elm20"
+                        />
+                        <img
+                          src="/assets/img/products/fossil pair of 3 in 1.png"
+                          alt="image4519068"
+                          class="pos-thq-image451-elm"
+                        />
+                        <div class="pos-thq-content-elm20">
+                          <div class="pos-thq-row-content-elm20">
+                            <span
+                              class="pos-thq-text-elm182 BodyLargeBodylgRegular"
+                            >
+                              Watches
+                            </span>
+                            <div class="pos-thq-title-elm29">
+                              <span
+                                class="pos-thq-text-elm183 BodyLargeBodylgBold"
+                              >
+                                Fossil Pair Of 3 in 1
+                              </span>
+                            </div>
+                          </div>
+                          <img
+                            src="/assets/img/backgrounds/Divider product.png"
+                            alt="Divider9068"
+                            class="pos-thq-divider-elm23"
+                          />
+                          <div class="pos-thq-rates-content-elm20">
+                            <span
+                              class="pos-thq-text-elm184 BodyLargeBodylgRegular"
+                            >
+                              40 Pcs
+                            </span>
+                            <span
+                              class="pos-thq-text-elm185 BodyLargeBodylgBold"
+                            >
+                              $789
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="pos-thq-product-item-elm21">
+                      <div class="pos-thq-product-inner-elm21">
+                        <img
+                          src="/assets/img/backgrounds/Bg 9068.png"
+                          alt="Bg9068"
+                          class="pos-thq-bg-elm21"
+                        />
+                        <img
+                          src="/assets/img/products/green nike fe.png"
+                          alt="image4529068"
+                          class="pos-thq-image452-elm"
+                        />
+                        <div class="pos-thq-content-elm21">
+                          <div class="pos-thq-row-content-elm21">
+                            <span
+                              class="pos-thq-text-elm186 BodyLargeBodylgRegular"
+                            >
+                              Shoes
+                            </span>
+                            <div class="pos-thq-title-elm30">
+                              <span
+                                class="pos-thq-text-elm187 BodyLargeBodylgBold"
+                              >
+                                Green Nike Fe
+                              </span>
+                            </div>
+                          </div>
+                          <img
+                            src="/assets/img/backgrounds/Divider product.png"
+                            alt="Divider9068"
+                            class="pos-thq-divider-elm24"
+                          />
+                          <div class="pos-thq-rates-content-elm21">
+                            <span
+                              class="pos-thq-text-elm188 BodyLargeBodylgRegular"
+                            >
+                              78 Pcs
+                            </span>
+                            <span
+                              class="pos-thq-text-elm189 BodyLargeBodylgBold"
+                            >
+                              $1454
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="pos-thq-product-item-elm22">
+                      <div class="pos-thq-product-inner-elm22">
+                        <img
+                          src="/assets/img/backgrounds/Bg 9068.png"
+                          alt="Bg9068"
+                          class="pos-thq-bg-elm22"
+                        />
+                        <div class="pos-thq-content-elm22">
+                          <div class="pos-thq-row-content-elm22">
+                            <span
+                              class="pos-thq-text-elm190 BodyLargeBodylgRegular"
+                            >
+                              Laptop
+                            </span>
+                            <div class="pos-thq-title-elm31">
+                              <span
+                                class="pos-thq-text-elm191 BodyLargeBodylgBold"
+                              >
+                                Yoga Book 9i
+                              </span>
+                            </div>
+                          </div>
+                          <img
+                            src="/assets/img/backgrounds/Divider product.png"
+                            alt="Divider9068"
+                            class="pos-thq-divider-elm25"
+                          />
+                          <div class="pos-thq-rates-content-elm22">
+                            <span
+                              class="pos-thq-text-elm192 BodyLargeBodylgRegular"
+                            >
+                              65 Pcs
+                            </span>
+                            <span
+                              class="pos-thq-text-elm193 BodyLargeBodylgBold"
+                            >
+                              $4784
+                            </span>
+                          </div>
+                        </div>
+                        <img
+                          src="/assets/img/products/yoga book 9i.png"
+                          alt="image4539068"
+                          class="pos-thq-image453-elm"
+                        />
+                      </div>
+                    </div>
+                    <div class="pos-thq-product-item-elm23">
+                      <div class="pos-thq-product-inner-elm23">
+                        <img
+                          src="/assets/img/backgrounds/Bg 9068.png"
+                          alt="Bg9068"
+                          class="pos-thq-bg-elm23"
+                        />
+                        <img
+                          src="/assets/img/products/ideapad slim 3i.png"
+                          alt="image4549068"
+                          class="pos-thq-image454-elm1"
+                        />
+                        <div class="pos-thq-content-elm23">
+                          <div class="pos-thq-row-content-elm23">
+                            <span
+                              class="pos-thq-text-elm194 BodyLargeBodylgRegular"
+                            >
+                              Laptop
+                            </span>
+                            <div class="pos-thq-title-elm32">
+                              <span
+                                class="pos-thq-text-elm195 BodyLargeBodylgBold"
+                              >
+                                IdeaPad Slim 3i
+                              </span>
+                            </div>
+                          </div>
+                          <img
+                            src="/assets/img/backgrounds/Divider product.png"
+                            alt="Divider9068"
+                            class="pos-thq-divider-elm26"
+                          />
+                          <div class="pos-thq-rates-content-elm23">
+                            <span
+                              class="pos-thq-text-elm196 BodyLargeBodylgRegular"
+                            >
+                              47 Pcs
+                            </span>
+                            <span
+                              class="pos-thq-text-elm197 BodyLargeBodylgBold"
+                            >
+                              $4784
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="pos-thq-product-item-elm24">
+                      <div class="pos-thq-product-inner-elm24">
+                        <img
+                          src="/assets/img/backgrounds/Bg 9068.png"
+                          alt="Bg9068"
+                          class="pos-thq-bg-elm24"
+                        />
+                        <img
+                          src="/assets/img/products/iphone 11.png"
+                          alt="image4549068"
+                          class="pos-thq-image454-elm2"
+                        />
+                        <div class="pos-thq-content-elm24">
+                          <div class="pos-thq-row-content-elm24">
+                            <span
+                              class="pos-thq-text-elm198 BodyLargeBodylgRegular"
+                            >
+                              Mobiles
+                            </span>
+                            <div class="pos-thq-title-elm33">
+                              <span
+                                class="pos-thq-text-elm199 BodyLargeBodylgBold"
+                              >
+                                Iphone 11
+                              </span>
+                            </div>
+                          </div>
+                          <img
+                            src="/assets/img/backgrounds/Divider product.png"
+                            alt="Divider9068"
+                            class="pos-thq-divider-elm27"
+                          />
+                          <div class="pos-thq-rates-content-elm24">
+                            <span
+                              class="pos-thq-text-elm200 BodyLargeBodylgRegular"
+                            >
+                              14 Pcs
+                            </span>
+                            <span
+                              class="pos-thq-text-elm201 BodyLargeBodylgBold"
+                            >
+                              $3654
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pos-thq-header-elm">
+            <img
+              src="/assets/img/Logo.svg"
+              alt="Logo9091"
+              class="pos-thq-logo-elm"
+            />
+            <div class="pos-thq-options-elm3">
+              <button class="pos-thq-button-elm7"></button>
+              <button class="pos-thq-button-elm8">
+                <span class="pos-thq-text-elm202 BodyMediumBodymdMedium">
+                  POS
+                </span>
+              </button>
+            </div>
+          </div>
+  </body>
+</html>

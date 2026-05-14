@@ -1,0 +1,4540 @@
+.create-products-container1 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.create-products-thq-create-products-elm {
+  width: 100%;
+  height: 1968px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(247, 247, 247, 1);
+}
+ 
+.create-products-thq-container-elm1 {
+  gap: 20px;
+  top: 144px;
+  left: 276px;
+  width: 1140px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.create-products-thq-product-information-elm {
+  display: flex;
+  align-self: stretch;
+  box-sizing: content-box;
+  align-items: flex-start;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  flex-direction: column;
+}
+ 
+.create-products-thq-title-elm1 {
+  gap: 24px;
+  display: flex;
+  padding: 15px 20px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  border-radius: 5px 5px 0 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-title-elm2 {
+  gap: 8px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+ 
+.create-products-thq-infocircle-elm {
+  width: 16px;
+  height: 16px;
+}
+ 
+.create-products-thq-content-elm10 {
+  gap: 15px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+ 
+.create-products-thq-text-elm100 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.create-products-thq-circlechevrondown-elm1 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.create-products-thq-cardbody-elm1 {
+  gap: 16px;
+  display: flex;
+  padding: 20px;
+  align-self: stretch;
+  align-items: flex-start;
+  border-radius: 0 0 5px 5px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-content-elm11 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.create-products-thq-input-container-elm10 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.create-products-thq-inputwith-select-elm10 {
+  gap: 4px;
+  width: 542px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm101 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-text-elm102 {
+  color: rgba(33, 43, 54, 1);
+}
+ 
+.create-products-thq-input-elm10 {
+  gap: 8px;
+  display: flex;
+  padding: 6px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-text-elm104 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  flex-grow: 1;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-dropdown-icon-elm10 {
+  width: 14px;
+  height: 14px;
+}
+ 
+.create-products-thq-inputwith-select-elm11 {
+  gap: 4px;
+  width: 542px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm105 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-text-elm106 {
+  color: rgba(33, 43, 54, 1);
+}
+ 
+.create-products-thq-input-elm11 {
+  gap: 8px;
+  display: flex;
+  padding: 6px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-text-elm108 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  flex-grow: 1;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-dropdown-icon-elm11 {
+  width: 14px;
+  height: 14px;
+}
+ 
+.create-products-thq-input-container-elm11 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.create-products-thq-inputwithplaceholder-elm1 {
+  gap: 4px;
+  width: 542px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm109 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-text-elm110 {
+  color: rgba(33, 43, 54, 1);
+}
+ 
+.create-products-thq-input-elm12 {
+  gap: 8px;
+  color: rgba(33, 43, 54, 1);
+  display: flex;
+  padding: 6px 12px;
+  font-size: 14px;
+  align-self: stretch;
+  text-align: left;
+  align-items: flex-start;
+  flex-shrink: 0;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-inputwithplaceholder-elm2 {
+  gap: 4px;
+  width: 542px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm112 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-text-elm113 {
+  color: rgba(33, 43, 54, 1);
+}
+ 
+.create-products-thq-input-elm13 {
+  gap: 8px;
+  color: rgba(33, 43, 54, 1);
+  display: flex;
+  padding: 6px 12px;
+  font-size: 14px;
+  align-self: stretch;
+  text-align: left;
+  align-items: flex-start;
+  flex-shrink: 0;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-input-container-elm12 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.create-products-thq-input-variant-elm1 {
+  gap: 4px;
+  width: 542px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm115 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-text-elm116 {
+  color: rgba(33, 43, 54, 1);
+}
+ 
+.create-products-thq-input-elm14 {
+  gap: 8px;
+  display: flex;
+  padding: 6px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-button-elm1 {
+  gap: 8px;
+  height: 24px;
+  display: flex;
+  padding: 4px 8px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 5px;
+  justify-content: center;
+  background-color: rgba(254, 159, 67, 1);
+}
+ 
+.create-products-thq-text-elm118 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  text-align: center;
+  line-height: 15px;
+}
+ 
+.create-products-thq-inputwith-select-elm12 {
+  gap: 4px;
+  width: 542px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm119 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-text-elm120 {
+  color: rgba(33, 43, 54, 1);
+}
+ 
+.create-products-thq-input-elm15 {
+  gap: 8px;
+  display: flex;
+  padding: 6px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-text-elm122 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  flex-grow: 1;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-dropdown-icon-elm12 {
+  width: 14px;
+  height: 14px;
+}
+ 
+.create-products-thq-input-container-elm13 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.create-products-thq-input-variant-elm2 {
+  gap: 4px;
+  width: 542px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.create-products-thq-label-elm1 {
+  gap: 4px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.create-products-thq-text-elm123 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-text-elm124 {
+  color: rgba(33, 43, 54, 1);
+}
+ 
+.create-products-thq-add-elm {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+}
+ 
+.create-products-thq-add-icon-elm {
+  width: 14px;
+  height: 14px;
+}
+ 
+.create-products-thq-text-elm126 {
+  color: rgba(254, 159, 67, 1);
+  height: auto;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-input-elm16 {
+  gap: 8px;
+  display: flex;
+  padding: 6px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-text-elm127 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  flex-grow: 1;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-dropdown-icon-elm13 {
+  width: 14px;
+  height: 14px;
+}
+ 
+.create-products-thq-inputwith-select-elm13 {
+  gap: 4px;
+  width: 542px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm128 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-text-elm129 {
+  color: rgba(33, 43, 54, 1);
+}
+ 
+.create-products-thq-input-elm17 {
+  gap: 8px;
+  display: flex;
+  padding: 6px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-text-elm131 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  flex-grow: 1;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-dropdown-icon-elm14 {
+  width: 14px;
+  height: 14px;
+}
+ 
+.create-products-thq-input-container-elm14 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.create-products-thq-inputwith-select-elm14 {
+  gap: 4px;
+  width: 542px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm132 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-text-elm133 {
+  color: rgba(33, 43, 54, 1);
+}
+ 
+.create-products-thq-input-elm18 {
+  gap: 8px;
+  display: flex;
+  padding: 6px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-text-elm135 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  flex-grow: 1;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-dropdown-icon-elm15 {
+  width: 14px;
+  height: 14px;
+}
+ 
+.create-products-thq-inputwith-select-elm15 {
+  gap: 4px;
+  width: 542px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm136 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-text-elm137 {
+  color: rgba(33, 43, 54, 1);
+}
+ 
+.create-products-thq-input-elm19 {
+  gap: 8px;
+  display: flex;
+  padding: 6px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-text-elm139 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  flex-grow: 1;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-dropdown-icon-elm16 {
+  width: 14px;
+  height: 14px;
+}
+ 
+.create-products-thq-input-container-elm15 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.create-products-thq-input-variant-elm3 {
+  gap: 4px;
+  width: 542px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm140 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-text-elm141 {
+  color: rgba(33, 43, 54, 1);
+}
+ 
+.create-products-thq-input-elm20 {
+  gap: 8px;
+  display: flex;
+  padding: 6px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-button-elm2 {
+  gap: 8px;
+  height: 24px;
+  display: flex;
+  padding: 4px 8px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 5px;
+  justify-content: center;
+  background-color: rgba(254, 159, 67, 1);
+}
+ 
+.create-products-thq-text-elm143 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  text-align: center;
+  line-height: 15px;
+}
+ 
+.create-products-thq-inputwith-select-elm16 {
+  gap: 4px;
+  width: 542px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm144 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-text-elm145 {
+  color: rgba(33, 43, 54, 1);
+}
+ 
+.create-products-thq-input-elm21 {
+  gap: 8px;
+  display: flex;
+  padding: 6px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-text-elm147 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  flex-grow: 1;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-dropdown-icon-elm17 {
+  width: 14px;
+  height: 14px;
+}
+ 
+.create-products-thq-description-elm {
+  gap: 4px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.create-products-thq-label-elm2 {
+  gap: 5px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm148 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-content-elm12 {
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: flex-start;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  flex-direction: column;
+  background-color: var(--dl-color-white-white);
+}
+ 
+.create-products-thq-toolbar-elm1 {
+  gap: 2px;
+  display: flex;
+  padding: 8px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.create-products-thq-toolbar-button-elm1 {
+  gap: 4px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  justify-content: center;
+}
+ 
+.create-products-thq-icons-featherbold-elm {
+  width: 18px;
+  height: 18px;
+}
+ 
+.create-products-thq-toolbar-button-elm2 {
+  gap: 4px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  justify-content: center;
+}
+ 
+.create-products-thq-icons-featheritalic-elm {
+  width: 18px;
+  height: 18px;
+}
+ 
+.create-products-thq-toolbar-button-elm3 {
+  gap: 4px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  justify-content: center;
+}
+ 
+.create-products-thq-icons-featherunderline-elm {
+  width: 18px;
+  height: 18px;
+}
+ 
+.create-products-thq-toolbar-button-elm4 {
+  gap: 4px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  justify-content: center;
+}
+ 
+.create-products-thq-typestrikethrough-elm {
+  width: 18px;
+  height: 18px;
+}
+ 
+.create-products-thq-toolbar-button-elm5 {
+  gap: 4px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  justify-content: center;
+}
+ 
+.create-products-thq-icons-featherlink-elm {
+  width: 18px;
+  height: 18px;
+}
+ 
+.create-products-thq-toolbar-button-elm6 {
+  gap: 4px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  justify-content: center;
+}
+ 
+.create-products-thq-iconsbxlistol-elm {
+  width: 18px;
+  height: 18px;
+}
+ 
+.create-products-thq-toolbar-button-elm7 {
+  gap: 4px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  justify-content: center;
+}
+ 
+.create-products-thq-iconsbxlistul-elm {
+  width: 18px;
+  height: 18px;
+}
+ 
+.create-products-thq-toolbar-button-elm8 {
+  gap: 4px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  justify-content: center;
+}
+ 
+.create-products-thq-vuesaxlinearquoteup-elm1 {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.create-products-thq-vuesaxlinearquoteup-elm2 {
+  top: 0px;
+  left: 0px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.create-products-thq-quoteup-elm {
+  top: 0px;
+  left: 0px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.create-products-thq-group-elm1 {
+  top: 2.46002197265625px;
+  left: 1.5px;
+  width: 15.00750732421875px;
+  height: 13.08746337890625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.create-products-thq-group-elm2 {
+  top: 0px;
+  left: 0px;
+  width: 6.285003662109375px;
+  height: 13.08746337890625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.create-products-thq-vector-elm1 {
+  top: 6.802459716796875px;
+  left: 0px;
+  width: 6px;
+  height: 6px;
+  position: absolute;
+}
+ 
+.create-products-thq-vector-elm2 {
+  top: 0px;
+  left: 0px;
+  width: 3px;
+  height: 7px;
+  position: absolute;
+}
+ 
+.create-products-thq-group-elm3 {
+  top: 0px;
+  left: 8.722503662109375px;
+  width: 6.285003662109375px;
+  height: 13.08746337890625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.create-products-thq-vector-elm3 {
+  top: 6.802459716796875px;
+  left: 0px;
+  width: 6px;
+  height: 6px;
+  position: absolute;
+}
+ 
+.create-products-thq-vector-elm4 {
+  top: 0px;
+  left: 0px;
+  width: 3px;
+  height: 7px;
+  position: absolute;
+}
+ 
+.create-products-thq-toolbar-button-elm9 {
+  gap: 4px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  justify-content: center;
+}
+ 
+.create-products-thq-iconsbxcodealt-elm {
+  width: 18px;
+  height: 18px;
+}
+ 
+.create-products-thq-horizontal-divider-elm1 {
+  width: auto;
+  height: 1px;
+  align-self: stretch;
+}
+ 
+.create-products-thq-input-elm22 {
+  gap: 10px;
+  color: rgba(166, 170, 175, 1);
+  display: flex;
+  padding: 14px 16px;
+  font-size: 14px;
+  align-self: stretch;
+  text-align: left;
+  align-items: flex-start;
+  flex-shrink: 0;
+  font-family: Nunito Sans;
+  font-weight: 400;
+}
+ 
+.create-products-thq-toolbarand-send-button-elm {
+  gap: 10px;
+  display: flex;
+  padding: 2px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+ 
+.create-products-thq-toolbar-elm2 {
+  gap: 2px;
+  display: flex;
+  padding: 6px;
+  align-items: flex-start;
+}
+ 
+.create-products-thq-clip-elm {
+  gap: 4px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  justify-content: center;
+}
+ 
+.create-products-thq-icons-featherpaperclip-elm {
+  width: 18px;
+  height: 18px;
+}
+ 
+.create-products-thq-smiley-elm {
+  gap: 4px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  justify-content: center;
+}
+ 
+.create-products-thq-iconsbxsmile-elm {
+  width: 18px;
+  height: 18px;
+}
+ 
+.create-products-thq-trashcan-elm {
+  gap: 4px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  justify-content: center;
+}
+ 
+.create-products-thq-icons-feathertrash2-elm {
+  width: 18px;
+  height: 18px;
+}
+ 
+.create-products-thq-send-button-elm {
+  gap: 6px;
+  display: flex;
+  padding: 6px;
+  align-items: flex-start;
+  background-color: var(--dl-color-white-white);
+}
+ 
+.create-products-thq-frame-wysiwy-gtoolbarsendbutton-elm {
+  gap: 4px;
+  display: flex;
+  padding: 6px;
+  align-items: flex-start;
+  border-radius: 4px;
+}
+ 
+.create-products-thq-button-elm3 {
+  gap: 6px;
+  height: 20px;
+  display: flex;
+  padding: 4px 6px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 3px;
+  justify-content: center;
+}
+ 
+.create-products-thq-send-icon-elm {
+  width: 14px;
+  height: 14px;
+}
+ 
+.create-products-thq-horizontal-divider-elm2 {
+  width: 1px;
+  height: auto;
+  align-self: stretch;
+}
+ 
+.create-products-thq-button-elm4 {
+  gap: 6px;
+  height: 20px;
+  display: flex;
+  padding: 4px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 3px;
+  justify-content: center;
+}
+ 
+.create-products-thq-dropdown-icon-elm18 {
+  width: 12px;
+  height: 12px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.create-products-thq-vuesaxlineararrowdown-elm {
+  top: 0px;
+  left: 0px;
+  width: 12px;
+  height: 12px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.create-products-thq-arrowdown-elm {
+  top: 0px;
+  left: 0px;
+  width: 12px;
+  height: 12px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.create-products-thq-vector-elm5 {
+  top: 4.474999904632568px;
+  left: 2.0399999618530273px;
+  width: 8px;
+  height: 4px;
+  position: absolute;
+}
+ 
+.create-products-thq-text-elm149 {
+  color: rgba(100, 107, 114, 1);
+  height: auto;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-pricing-stocks-elm {
+  display: flex;
+  align-self: stretch;
+  box-sizing: content-box;
+  align-items: flex-start;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  flex-direction: column;
+}
+ 
+.create-products-thq-title-elm3 {
+  gap: 24px;
+  display: flex;
+  padding: 15px 20px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  border-radius: 5px 5px 0 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-title-elm4 {
+  gap: 8px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+ 
+.create-products-thq-lifebuoy-elm {
+  width: 16px;
+  height: 16px;
+}
+ 
+.create-products-thq-content-elm13 {
+  gap: 15px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+ 
+.create-products-thq-text-elm150 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.create-products-thq-circlechevrondown-elm2 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.create-products-thq-cardbody-elm2 {
+  gap: 16px;
+  display: flex;
+  padding: 20px;
+  align-self: stretch;
+  align-items: flex-start;
+  border-radius: 0 0 5px 5px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-content-elm14 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.create-products-thq-product-type-elm {
+  gap: 4px;
+  width: 289px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm151 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.create-products-thq-options-elm1 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.create-products-thq-option-elm1 {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+ 
+.create-products-thq-radio-button-elm1 {
+  gap: 10px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  padding: 2px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(254, 159, 67, 1);
+}
+ 
+.create-products-thq-on-elm1 {
+  width: 8px;
+  height: 8px;
+  border-radius: 60px;
+}
+ 
+.create-products-thq-text-elm152 {
+  color: rgba(100, 107, 114, 1);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.create-products-thq-option-elm2 {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+ 
+.create-products-thq-radio-button-elm2 {
+  gap: 10px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  padding: 2px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(230, 234, 237, 1);
+}
+ 
+.create-products-thq-on-elm2 {
+  width: 8px;
+  height: 8px;
+  border-radius: 60px;
+}
+ 
+.create-products-thq-text-elm153 {
+  color: rgba(100, 107, 114, 1);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.create-products-thq-input-container-elm16 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.create-products-thq-inputwithplaceholder-elm3 {
+  gap: 4px;
+  width: 356px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm154 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-text-elm155 {
+  color: rgba(33, 43, 54, 1);
+}
+ 
+.create-products-thq-input-elm23 {
+  gap: 8px;
+  color: rgba(33, 43, 54, 1);
+  display: flex;
+  padding: 6px 12px;
+  font-size: 14px;
+  align-self: stretch;
+  text-align: left;
+  align-items: flex-start;
+  flex-shrink: 0;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-inputwithplaceholder-elm4 {
+  gap: 4px;
+  width: 356px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm157 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-text-elm158 {
+  color: rgba(33, 43, 54, 1);
+}
+ 
+.create-products-thq-input-elm24 {
+  gap: 8px;
+  color: rgba(33, 43, 54, 1);
+  display: flex;
+  padding: 6px 12px;
+  font-size: 14px;
+  align-self: stretch;
+  text-align: left;
+  align-items: flex-start;
+  flex-shrink: 0;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-inputwith-select-elm17 {
+  gap: 4px;
+  width: 356px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm160 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-text-elm161 {
+  color: rgba(33, 43, 54, 1);
+}
+ 
+.create-products-thq-input-elm25 {
+  gap: 8px;
+  display: flex;
+  padding: 6px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-text-elm163 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  flex-grow: 1;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-dropdown-icon-elm19 {
+  width: 14px;
+  height: 14px;
+}
+ 
+.create-products-thq-input-container-elm17 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.create-products-thq-inputwith-select-elm18 {
+  gap: 4px;
+  width: 356px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm164 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-text-elm165 {
+  color: rgba(33, 43, 54, 1);
+}
+ 
+.create-products-thq-input-elm26 {
+  gap: 8px;
+  display: flex;
+  padding: 6px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-text-elm167 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  flex-grow: 1;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-dropdown-icon-elm20 {
+  width: 14px;
+  height: 14px;
+}
+ 
+.create-products-thq-inputwithplaceholder-elm5 {
+  gap: 4px;
+  width: 356px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm168 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-text-elm169 {
+  color: rgba(33, 43, 54, 1);
+}
+ 
+.create-products-thq-input-elm27 {
+  gap: 8px;
+  color: rgba(33, 43, 54, 1);
+  display: flex;
+  padding: 6px 12px;
+  font-size: 14px;
+  align-self: stretch;
+  text-align: left;
+  align-items: flex-start;
+  flex-shrink: 0;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-inputwithplaceholder-elm6 {
+  gap: 4px;
+  width: 356px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm171 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-text-elm172 {
+  color: rgba(33, 43, 54, 1);
+}
+ 
+.create-products-thq-input-elm28 {
+  gap: 8px;
+  color: rgba(33, 43, 54, 1);
+  display: flex;
+  padding: 6px 12px;
+  font-size: 14px;
+  align-self: stretch;
+  text-align: left;
+  align-items: flex-start;
+  flex-shrink: 0;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-images-elm {
+  display: flex;
+  align-self: stretch;
+  box-sizing: content-box;
+  align-items: flex-start;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  flex-direction: column;
+}
+ 
+.create-products-thq-title-elm5 {
+  gap: 24px;
+  display: flex;
+  padding: 15px 20px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  border-radius: 5px 5px 0 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-title-elm6 {
+  gap: 8px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+ 
+.create-products-thq-photo-elm {
+  width: 16px;
+  height: 16px;
+}
+ 
+.create-products-thq-content-elm15 {
+  gap: 15px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+ 
+.create-products-thq-text-elm174 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.create-products-thq-circlechevrondown-elm3 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.create-products-thq-cardbody-elm3 {
+  gap: 16px;
+  display: flex;
+  padding: 20px;
+  align-self: stretch;
+  align-items: flex-start;
+  border-radius: 0 0 5px 5px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-content-elm16 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.create-products-thq-add-image-elm {
+  gap: 16px;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+ 
+.create-products-thq-bg-elm {
+  width: 120px;
+  height: 120px;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+ 
+.create-products-thq-info-elm1 {
+  gap: 4px;
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.create-products-thq-circleplus-elm {
+  width: 14px;
+  height: 14px;
+}
+ 
+.create-products-thq-text-elm175 {
+  color: rgba(166, 170, 175, 1);
+  height: auto;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-custom-fields-elm {
+  display: flex;
+  align-self: stretch;
+  box-sizing: content-box;
+  align-items: flex-start;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  flex-direction: column;
+}
+ 
+.create-products-thq-title-elm7 {
+  gap: 24px;
+  display: flex;
+  padding: 15px 20px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  border-radius: 5px 5px 0 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-title-elm8 {
+  gap: 8px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+ 
+.create-products-thq-list-elm {
+  width: 16px;
+  height: 16px;
+}
+ 
+.create-products-thq-content-elm17 {
+  gap: 15px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+ 
+.create-products-thq-text-elm176 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.create-products-thq-circlechevrondown-elm4 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.create-products-thq-cardbody-elm4 {
+  gap: 16px;
+  display: flex;
+  padding: 20px;
+  align-self: stretch;
+  align-items: flex-start;
+  border-radius: 0 0 5px 5px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-content-elm18 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.create-products-thq-fields-elm {
+  gap: 10px;
+  display: flex;
+  padding: 15px;
+  align-self: stretch;
+  align-items: flex-start;
+  border-radius: 10px;
+  flex-direction: column;
+  background-color: rgba(242, 242, 242, 1);
+}
+ 
+.create-products-thq-content-elm19 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.create-products-thq-info-elm2 {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+ 
+.create-products-thq-checkbox-elm1 {
+  gap: 10px;
+  width: 16px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 5px;
+  justify-content: center;
+  background-color: rgba(254, 159, 67, 1);
+}
+ 
+.create-products-thq-rectangle172-elm1 {
+  width: 16px;
+  height: 16px;
+  border-color: rgba(254, 159, 67, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+ 
+.create-products-thq-check-elm1 {
+  top: 3px;
+  left: 3px;
+  width: 10px;
+  height: 10px;
+  z-index: 1;
+  position: absolute;
+}
+ 
+.create-products-thq-text-elm177 {
+  color: rgba(100, 107, 114, 1);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.create-products-thq-info-elm3 {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+ 
+.create-products-thq-checkbox-elm2 {
+  gap: 10px;
+  width: 16px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 5px;
+  justify-content: center;
+  background-color: rgba(254, 159, 67, 1);
+}
+ 
+.create-products-thq-rectangle172-elm2 {
+  width: 16px;
+  height: 16px;
+  border-color: rgba(254, 159, 67, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+ 
+.create-products-thq-check-elm2 {
+  top: 3px;
+  left: 3px;
+  width: 10px;
+  height: 10px;
+  z-index: 1;
+  position: absolute;
+}
+ 
+.create-products-thq-text-elm178 {
+  color: rgba(100, 107, 114, 1);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.create-products-thq-info-elm4 {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+ 
+.create-products-thq-checkbox-elm3 {
+  gap: 10px;
+  width: 16px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 5px;
+  justify-content: center;
+  background-color: rgba(254, 159, 67, 1);
+}
+ 
+.create-products-thq-rectangle172-elm3 {
+  width: 16px;
+  height: 16px;
+  border-color: rgba(254, 159, 67, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+ 
+.create-products-thq-check-elm3 {
+  top: 3px;
+  left: 3px;
+  width: 10px;
+  height: 10px;
+  z-index: 1;
+  position: absolute;
+}
+ 
+.create-products-thq-text-elm179 {
+  color: rgba(100, 107, 114, 1);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.create-products-thq-input-container-elm18 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.create-products-thq-inputwith-select-elm19 {
+  gap: 4px;
+  width: 542px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm180 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-text-elm181 {
+  color: rgba(33, 43, 54, 1);
+}
+ 
+.create-products-thq-input-elm29 {
+  gap: 8px;
+  display: flex;
+  padding: 6px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-text-elm183 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  flex-grow: 1;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-dropdown-icon-elm21 {
+  width: 14px;
+  height: 14px;
+}
+ 
+.create-products-thq-inputwithplaceholder-elm7 {
+  gap: 4px;
+  width: 542px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm184 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-text-elm185 {
+  color: rgba(33, 43, 54, 1);
+}
+ 
+.create-products-thq-input-elm30 {
+  gap: 8px;
+  color: rgba(33, 43, 54, 1);
+  display: flex;
+  padding: 6px 12px;
+  font-size: 14px;
+  align-self: stretch;
+  text-align: left;
+  align-items: flex-start;
+  flex-shrink: 0;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-input-container-elm19 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.create-products-thq-inputwithdate-elm1 {
+  gap: 4px;
+  width: 542px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm187 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-input-elm31 {
+  gap: 8px;
+  display: flex;
+  padding: 6px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-text-elm188 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  flex-grow: 1;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-calendar-icon-elm1 {
+  width: 14px;
+  height: 14px;
+}
+ 
+.create-products-thq-inputwithdate-elm2 {
+  gap: 4px;
+  width: 542px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm189 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-text-elm190 {
+  color: rgba(33, 43, 54, 1);
+}
+ 
+.create-products-thq-input-elm32 {
+  gap: 8px;
+  display: flex;
+  padding: 6px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-text-elm192 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  flex-grow: 1;
+  align-self: stretch;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-calendar-icon-elm2 {
+  width: 14px;
+  height: 14px;
+}
+ 
+.create-products-thq-button-elm5 {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: flex-end;
+}
+ 
+.create-products-thq-cancel-button-elm {
+  gap: 8px;
+  display: flex;
+  padding: 7px 12px;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+  background-color: rgba(9, 44, 76, 1);
+}
+ 
+.create-products-thq-text-elm193 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  text-align: center;
+  line-height: 19.5px;
+}
+ 
+.create-products-thq-add-product-button-elm {
+  gap: 8px;
+  display: flex;
+  padding: 7px 12px;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+  background-color: rgba(254, 159, 67, 1);
+}
+ 
+.create-products-thq-text-elm194 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  text-align: center;
+  line-height: 19.5px;
+}
+ 
+.create-products-thq-page-info-create-product-elm {
+  gap: 137px;
+  top: 80px;
+  left: 276px;
+  width: 1140px;
+  display: flex;
+  position: absolute;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.create-products-thq-create-product-dashboard-create-product-elm {
+  width: 778px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.create-products-thq-breadcrum-elm {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm195 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 27px;
+}
+ 
+.create-products-thq-breadcrumb-container-elm {
+  gap: 4px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.create-products-thq-breadcrumb-item-elm1 {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.create-products-thq-text-elm196 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-chevron-icon-elm {
+  width: 14px;
+  height: 14px;
+}
+ 
+.create-products-thq-breadcrumb-item-elm2 {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.create-products-thq-text-elm197 {
+  color: rgba(100, 107, 114, 1);
+  height: auto;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-options-elm2 {
+  gap: 8px;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.create-products-thq-container-elm2 {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+ 
+.create-products-thq-refresh-elm {
+  gap: 10px;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-refresh-icon-elm {
+  width: 16px;
+  height: 16px;
+}
+ 
+.create-products-thq-collapse-elm {
+  gap: 10px;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-collapse-icon-elm {
+  width: 16px;
+  height: 16px;
+}
+ 
+.create-products-thq-button-elm6 {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+ 
+.create-products-thq-button-elm7 {
+  gap: 4px;
+  display: flex;
+  padding: 7px 12px;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+  background-color: rgba(9, 44, 76, 1);
+}
+ 
+.create-products-thq-arrowleft-elm {
+  width: 13px;
+  height: 13px;
+}
+ 
+.create-products-thq-text-elm198 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  text-align: center;
+  line-height: 19.5px;
+}
+ 
+.create-products-thq-sidebar-elm {
+  top: 0px;
+  left: 0px;
+  width: 252px;
+  height: 1204px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 0 1px 0 0;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-body-elm {
+  gap: 16px;
+  top: 66px;
+  left: 0px;
+  width: 252px;
+  display: flex;
+  padding: 24px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.create-products-thq-container-main-elm {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm199 {
+  color: rgba(9, 44, 76, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 18px;
+}
+ 
+.create-products-thq-menus-elm1 {
+  gap: 4px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.create-products-thq-menu-elm1 {
+  gap: 10px;
+  display: flex;
+  padding: 8px 12px;
+  flex-wrap: wrap;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-color: rgba(255, 246, 238, 1);
+}
+ 
+.create-products-thq-content-elm20 {
+  gap: 8px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+ 
+.create-products-thq-layoutgrid-elm {
+  width: 16px;
+  height: 16px;
+}
+ 
+.create-products-thq-text-elm200 {
+  color: rgba(254, 159, 67, 1);
+  height: auto;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-divider-elm1 {
+  width: auto;
+  height: 1px;
+  align-self: stretch;
+}
+ 
+.create-products-thq-container-inventory-elm {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm201 {
+  color: rgba(9, 44, 76, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 18px;
+}
+ 
+.create-products-thq-menus-elm2 {
+  gap: 4px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.create-products-thq-menu-elm2 {
+  gap: 10px;
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+ 
+.create-products-thq-content-elm21 {
+  gap: 8px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+ 
+.create-products-thq-box-elm {
+  width: 16px;
+  height: 16px;
+}
+ 
+.create-products-thq-text-elm202 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-divider-elm2 {
+  width: auto;
+  height: 1px;
+  align-self: stretch;
+}
+ 
+.create-products-thq-container-report-elm {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm203 {
+  color: rgba(9, 44, 76, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 18px;
+}
+ 
+.create-products-thq-menus-elm3 {
+  gap: 4px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.create-products-thq-menu-elm3 {
+  gap: 10px;
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+ 
+.create-products-thq-content-elm22 {
+  gap: 10px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+ 
+.create-products-thq-businessplan-elm {
+  width: 16px;
+  height: 16px;
+}
+ 
+.create-products-thq-text-elm204 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-divider-elm3 {
+  width: auto;
+  height: 1px;
+  align-self: stretch;
+}
+ 
+.create-products-thq-container-settings-elm {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.create-products-thq-text-elm205 {
+  color: rgba(9, 44, 76, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 18px;
+}
+ 
+.create-products-thq-menus-elm4 {
+  gap: 4px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.create-products-thq-menu-elm4 {
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+ 
+.create-products-thq-content-elm23 {
+  gap: 8px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+ 
+.create-products-thq-logout-elm {
+  width: 16px;
+  height: 16px;
+}
+ 
+.create-products-thq-text-elm206 {
+  color: rgba(33, 43, 54, 1);
+  height: auto;
+  text-align: left;
+  line-height: 21px;
+}
+ 
+.create-products-thq-title-elm9 {
+  gap: 10px;
+  top: 0px;
+  left: 0px;
+  width: 252px;
+  height: 66px;
+  display: flex;
+  padding: 15px 16px;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+}
+ 
+.create-products-thq-logo-elm {
+  top: 15px;
+  left: 16px;
+  width: 115px;
+  height: 36px;
+  position: absolute;
+}
+ 
+.create-products-thq-header-elm {
+  gap: 10px;
+  top: 0px;
+  left: 252px;
+  width: 1188px;
+  height: 66px;
+  display: flex;
+  padding: 9px 24px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(230, 234, 237, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.create-products-thq-options-elm3 {
+  gap: 12px;
+  top: 16px;
+  left: 24px;
+  width: 1140px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: flex-end;
+}
+ 
+.create-products-thq-button-pos-elm {
+  gap: 4px;
+  display: flex;
+  padding: 7px 12px;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+  background-color: rgba(9, 44, 76, 1);
+}
+ 
+.create-products-thq-devicelaptop-elm {
+  width: 13px;
+  height: 13px;
+}
+ 
+.create-products-thq-text-elm207 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  text-align: center;
+  line-height: 19.5px;
+}
+ 
+.create-products-thq-divider-elm4 {
+  width: 1px;
+  height: 100%;
+  background-color: rgba(145, 158, 171, 0.3);
+  flex-shrink: 0;
+}
+ 
+.create-products-link {
+  display: contents;
+}
+ 
+.create-products-container2 {
+  right: 50px;
+  border: 1px solid #ffffff5c;
+  bottom: 30px;
+  display: flex;
+  z-index: 22;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
+  min-height: auto;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 12px;
+  border-radius: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(41, 41, 41, 0.41);
+}
+ 
+.create-products-icon1 {
+  width: 24px;
+  margin-right: 4px;
+}
+ 
+.create-products-text {
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+/* ============================================
+   CREATE PRODUCT — COMPREHENSIVE FIX
+   ============================================ */
+
+/* 1. REQUIRED ASTERISK — RED */
+.required-star {
+  color: #e53e3e !important;
+  margin-left: 1px;
+}
+
+/* 2. CANCEL & ADD PRODUCT BUTTONS — side by side, right-aligned */
+.create-products-thq-button-elm5 {
+  display: none !important;
+}
+
+.create-products-thq-action-buttons-elm {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  gap: 12px !important;
+  align-self: stretch !important;
+  padding: 8px 0 !important;
+}
+
+.create-products-thq-cancel-button-elm {
+  padding: 10px 24px !important;
+  border-radius: 8px !important;
+  background-color: rgba(9, 44, 76, 1) !important;
+  cursor: pointer !important;
+  border: none !important;
+  min-width: 100px !important;
+}
+
+.create-products-thq-text-elm193 {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  line-height: 1 !important;
+  white-space: nowrap !important;
+}
+
+.create-products-thq-add-product-button-elm {
+  padding: 10px 24px !important;
+  border-radius: 8px !important;
+  background-color: rgba(254, 159, 67, 1) !important;
+  cursor: pointer !important;
+  border: none !important;
+  min-width: 120px !important;
+}
+
+.create-products-thq-text-elm194 {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  line-height: 1 !important;
+  white-space: nowrap !important;
+}
+
+/* 3. ADD IMAGE — dashed border box, centered content */
+.create-products-thq-add-image-elm {
+  width: 160px !important;
+  height: 160px !important;
+  border: 2px dashed rgba(209, 213, 219, 1) !important;
+  border-radius: 10px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+  cursor: pointer !important;
+  background: #fff !important;
+  position: static !important;
+  gap: 0 !important;
+  transition: border-color 0.15s ease !important;
+}
+
+.create-products-thq-add-image-elm:hover {
+  border-color: rgba(254, 159, 67, 0.6) !important;
+}
+
+.create-products-thq-bg-elm {
+  display: none !important;
+}
+
+.create-products-thq-info-elm1 {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  position: static !important;
+  z-index: auto !important;
+}
+
+.create-products-thq-circleplus-elm {
+  width: 28px !important;
+  height: 28px !important;
+  opacity: 0.5 !important;
+}
+
+.create-products-thq-text-elm175 {
+  color: rgba(156, 163, 175, 1) !important;
+  font-size: 13px !important;
+  line-height: 1 !important;
+  text-align: center !important;
+}
+
+/* 4 & 5. DESCRIPTION — clean toolbar + bottom bar */
+
+/* Outer wrapper */
+.create-products-thq-description-elm {
+  gap: 6px !important;
+}
+
+.create-products-thq-label-elm2 {
+  gap: 4px !important;
+}
+
+.create-products-thq-text-elm148 {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  color: rgba(33, 43, 54, 1) !important;
+}
+
+/* Content box */
+.create-products-thq-content-elm12 {
+  border: 1px solid rgba(209, 213, 219, 1) !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  display: flex !important;
+  flex-direction: column !important;
+  background: #fff !important;
+}
+
+/* Top toolbar */
+.create-products-thq-toolbar-elm1 {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  padding: 6px 8px !important;
+  gap: 2px !important;
+  border-bottom: 1px solid rgba(230, 234, 237, 1) !important;
+  background: #fff !important;
+  flex-wrap: nowrap !important;
+}
+
+/* Toolbar buttons */
+.create-products-thq-toolbar-button-elm1,
+.create-products-thq-toolbar-button-elm2,
+.create-products-thq-toolbar-button-elm3,
+.create-products-thq-toolbar-button-elm4,
+.create-products-thq-toolbar-button-elm5,
+.create-products-thq-toolbar-button-elm6,
+.create-products-thq-toolbar-button-elm7,
+.create-products-thq-toolbar-button-elm8,
+.create-products-thq-toolbar-button-elm9 {
+  width: 28px !important;
+  height: 28px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 4px !important;
+  flex-shrink: 0 !important;
+  background: transparent !important;
+  cursor: pointer !important;
+  transition: background 0.1s ease !important;
+}
+
+.create-products-thq-toolbar-button-elm1:hover,
+.create-products-thq-toolbar-button-elm2:hover,
+.create-products-thq-toolbar-button-elm3:hover,
+.create-products-thq-toolbar-button-elm4:hover,
+.create-products-thq-toolbar-button-elm5:hover,
+.create-products-thq-toolbar-button-elm6:hover,
+.create-products-thq-toolbar-button-elm7:hover,
+.create-products-thq-toolbar-button-elm8:hover,
+.create-products-thq-toolbar-button-elm9:hover {
+  background: rgba(243, 244, 246, 1) !important;
+}
+
+/* All toolbar icons same size */
+.create-products-thq-icons-featherbold-elm,
+.create-products-thq-icons-featheritalic-elm,
+.create-products-thq-icons-featherunderline-elm,
+.create-products-thq-typestrikethrough-elm,
+.create-products-thq-icons-featherlink-elm,
+.create-products-thq-iconsbxlistol-elm,
+.create-products-thq-iconsbxlistul-elm,
+.create-products-thq-iconsbxquote-elm,
+.create-products-thq-iconsbxcodealt-elm {
+  width: 16px !important;
+  height: 16px !important;
+}
+
+/* Divider between toolbar button groups */
+.create-products-thq-toolbar-divider-elm {
+  width: 1px !important;
+  height: 20px !important;
+  background: rgba(209, 213, 219, 1) !important;
+  margin: 0 4px !important;
+  flex-shrink: 0 !important;
+}
+
+/* Horizontal divider inside content box */
+.create-products-thq-horizontal-divider-elm1 {
+  width: 100% !important;
+  height: 1px !important;
+  background: rgba(230, 234, 237, 1) !important;
+  flex-shrink: 0 !important;
+}
+
+/* Text area */
+.create-products-thq-input-elm22 {
+  border: none !important;
+  outline: none !important;
+  padding: 12px 16px !important;
+  font-size: 14px !important;
+  color: rgba(55, 65, 81, 1) !important;
+  background: transparent !important;
+  min-height: 80px !important;
+  width: 100% !important;
+  resize: none !important;
+  font-family: inherit !important;
+}
+
+/* Bottom toolbar bar */
+.create-products-thq-toolbarand-send-button-elm {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding: 4px 8px !important;
+  border-top: 1px solid rgba(230, 234, 237, 1) !important;
+  background: #fff !important;
+  gap: 8px !important;
+  min-height: 44px !important;
+}
+
+.create-products-thq-toolbar-elm2 {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 2px !important;
+  padding: 0 !important;
+}
+
+.create-products-thq-clip-elm,
+.create-products-thq-smiley-elm,
+.create-products-thq-trashcan-elm {
+  width: 28px !important;
+  height: 28px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+}
+
+.create-products-thq-clip-elm:hover,
+.create-products-thq-smiley-elm:hover,
+.create-products-thq-trashcan-elm:hover {
+  background: rgba(243, 244, 246, 1) !important;
+}
+
+.create-products-thq-icons-featherpaperclip-elm,
+.create-products-thq-iconsbxsmile-elm,
+.create-products-thq-icons-feathertrash2-elm {
+  width: 16px !important;
+  height: 16px !important;
+}
+
+/* Right side send area */
+.create-products-thq-send-right-elm {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 0 !important;
+  border: 1px solid rgba(209, 213, 219, 1) !important;
+  border-radius: 5px !important;
+  overflow: hidden !important;
+}
+
+.create-products-thq-button-elm3 {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 5px 10px !important;
+  height: 30px !important;
+  background: #fff !important;
+  border: none !important;
+  cursor: pointer !important;
+  border-radius: 0 !important;
+}
+
+.create-products-thq-send-icon-elm {
+  width: 14px !important;
+  height: 14px !important;
+}
+
+.create-products-thq-horizontal-divider-elm2 {
+  width: 1px !important;
+  height: 30px !important;
+  background: rgba(209, 213, 219, 1) !important;
+  flex-shrink: 0 !important;
+}
+
+.create-products-thq-button-elm4 {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 5px 6px !important;
+  height: 30px !important;
+  background: #fff !important;
+  border: none !important;
+  cursor: pointer !important;
+  border-radius: 0 !important;
+}
+
+.create-products-thq-dropdown-arrow-elm {
+  width: 12px !important;
+  height: 12px !important;
+  opacity: 0.6 !important;
+}
+
+/* Word count label */
+.create-products-thq-text-elm149 {
+  font-size: 12px !important;
+  color: rgba(156, 163, 175, 1) !important;
+  margin-top: 2px !important;
+}
+
+/* Hide leftover empty buttons */
+.create-products-thq-send-button-elm,
+.create-products-thq-frame-wysiwy-gtoolbarsendbutton-elm {
+  display: none !important;
+}
+
+/* ============================================
+   CREATE PRODUCT — LAYOUT POLISH PASS
+   ============================================ */
+
+/* ── 1. REFRESH / COLLAPSE / BACK TO PRODUCTS ── */
+
+.create-products-thq-options-elm2 {
+  gap: 10px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.create-products-thq-container-elm2 {
+  gap: 8px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* Refresh & Collapse icon boxes — uniform 40×40 */
+.create-products-thq-refresh-elm,
+.create-products-thq-collapse-elm {
+  width: 40px !important;
+  height: 40px !important;
+  padding: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border: 1.5px solid rgba(225, 228, 232, 1) !important;
+  border-radius: 8px !important;
+  background-color: #fff !important;
+  cursor: pointer !important;
+  flex-shrink: 0 !important;
+  transition: border-color 0.15s, background 0.15s !important;
+}
+
+.create-products-thq-refresh-elm:hover,
+.create-products-thq-collapse-elm:hover {
+  background-color: rgba(248, 249, 250, 1) !important;
+  border-color: rgba(180, 185, 192, 1) !important;
+}
+
+/* Icons inside boxes — same size */
+.create-products-thq-refresh-icon-elm,
+.create-products-thq-collapse-icon-elm {
+  width: 18px !important;
+  height: 18px !important;
+}
+
+/* Empty button-elm6 — hide */
+.create-products-thq-button-elm6 {
+  display: none !important;
+}
+
+/* Back to Products button */
+.create-products-thq-button-elm7 {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  padding: 0 20px !important;
+  height: 40px !important;
+  border-radius: 8px !important;
+  background-color: rgba(9, 44, 76, 1) !important;
+  border: none !important;
+  cursor: pointer !important;
+  white-space: nowrap !important;
+  transition: opacity 0.15s !important;
+}
+
+.create-products-thq-button-elm7:hover {
+  opacity: 0.88 !important;
+}
+
+.create-products-thq-arrowleft-elm {
+  width: 16px !important;
+  height: 16px !important;
+  filter: brightness(0) invert(1) !important;
+  flex-shrink: 0 !important;
+}
+
+.create-products-thq-text-elm198 {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  color: #fff !important;
+  line-height: 1 !important;
+  letter-spacing: 0.1px !important;
+}
+
+
+/* ── 2. ADD IMAGE — bigger, prominent dashed box ── */
+
+.create-products-thq-add-image-elm {
+  width: 180px !important;
+  height: 180px !important;
+  border: 2px dashed rgba(209, 213, 219, 1) !important;
+  border-radius: 12px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 10px !important;
+  cursor: pointer !important;
+  background: #fafafa !important;
+  position: static !important;
+  transition: border-color 0.15s, background 0.15s !important;
+}
+
+.create-products-thq-add-image-elm:hover {
+  border-color: rgba(254, 159, 67, 0.55) !important;
+  background: rgba(254, 159, 67, 0.03) !important;
+}
+
+.create-products-thq-circleplus-elm {
+  width: 32px !important;
+  height: 32px !important;
+  opacity: 0.45 !important;
+}
+
+.create-products-thq-text-elm175 {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: rgba(180, 184, 190, 1) !important;
+  line-height: 1 !important;
+  letter-spacing: 0.2px !important;
+}
+
+/* ── 3. ADD NEW LINK — circle-plus + orange text ── */
+
+.create-products-thq-label-elm1 {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 8px !important;
+}
+
+.create-products-thq-add-elm {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 5px !important;
+  cursor: pointer !important;
+  flex-shrink: 0 !important;
+}
+
+.create-products-thq-add-icon-elm {
+  width: 16px !important;
+  height: 16px !important;
+  flex-shrink: 0 !important;
+  /* tint to orange to match text */
+  filter: invert(67%) sepia(72%) saturate(600%) hue-rotate(345deg) brightness(103%) !important;
+}
+
+.create-products-thq-text-elm126 {
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  color: rgba(254, 159, 67, 1) !important;
+  line-height: 1 !important;
+  white-space: nowrap !important;
+}
+
+
+/* ── 4. CARD BODY — consistent padding, gap, rhythm ── */
+
+.create-products-thq-cardbody-elm1,
+.create-products-thq-cardbody-elm2,
+.create-products-thq-cardbody-elm3,
+.create-products-thq-cardbody-elm4 {
+  padding: 24px !important;
+  gap: 20px !important;
+  border-top: 1px solid rgba(230, 234, 237, 1) !important;
+}
+
+/* All row containers inside cardbodies */
+.create-products-thq-content-elm11,
+.create-products-thq-content-elm14,
+.create-products-thq-content-elm16,
+.create-products-thq-content-elm18 {
+  gap: 20px !important;
+}
+
+/* Input rows — uniform gap */
+.create-products-thq-input-container-elm10,
+.create-products-thq-input-container-elm11,
+.create-products-thq-input-container-elm12,
+.create-products-thq-input-container-elm13,
+.create-products-thq-input-container-elm14,
+.create-products-thq-input-container-elm15,
+.create-products-thq-input-container-elm16,
+.create-products-thq-input-container-elm17,
+.create-products-thq-input-container-elm18,
+.create-products-thq-input-container-elm19 {
+  gap: 16px !important;
+  align-items: flex-start !important;
+}
+
+/* All individual input wrappers — uniform spacing */
+.create-products-thq-inputwith-select-elm10,
+.create-products-thq-inputwith-select-elm11,
+.create-products-thq-inputwith-select-elm12,
+.create-products-thq-inputwith-select-elm13,
+.create-products-thq-inputwith-select-elm14,
+.create-products-thq-inputwith-select-elm15,
+.create-products-thq-inputwith-select-elm16,
+.create-products-thq-inputwith-select-elm17,
+.create-products-thq-inputwith-select-elm18,
+.create-products-thq-inputwith-select-elm19,
+.create-products-thq-inputwithplaceholder-elm1,
+.create-products-thq-inputwithplaceholder-elm2,
+.create-products-thq-inputwithplaceholder-elm3,
+.create-products-thq-inputwithplaceholder-elm4,
+.create-products-thq-inputwithplaceholder-elm5,
+.create-products-thq-inputwithplaceholder-elm6,
+.create-products-thq-inputwithplaceholder-elm7,
+.create-products-thq-input-variant-elm1,
+.create-products-thq-input-variant-elm2,
+.create-products-thq-input-variant-elm3,
+.create-products-thq-inputwithdate-elm1,
+.create-products-thq-inputwithdate-elm2 {
+  gap: 6px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 !important;
+  min-width: 0 !important;
+}
+
+/* All input field boxes — consistent height & style */
+.create-products-thq-input-elm10,
+.create-products-thq-input-elm11,
+.create-products-thq-input-elm12,
+.create-products-thq-input-elm13,
+.create-products-thq-input-elm14,
+.create-products-thq-input-elm15,
+.create-products-thq-input-elm16,
+.create-products-thq-input-elm17,
+.create-products-thq-input-elm18,
+.create-products-thq-input-elm19,
+.create-products-thq-input-elm20,
+.create-products-thq-input-elm21,
+.create-products-thq-input-elm23,
+.create-products-thq-input-elm24,
+.create-products-thq-input-elm25,
+.create-products-thq-input-elm26,
+.create-products-thq-input-elm27,
+.create-products-thq-input-elm28,
+.create-products-thq-input-elm29,
+.create-products-thq-input-elm30,
+.create-products-thq-input-elm31,
+.create-products-thq-input-elm32 {
+  height: 42px !important;
+  padding: 0 12px !important;
+  border: 1.5px solid rgba(225, 228, 232, 1) !important;
+  border-radius: 8px !important;
+  background: #fff !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 8px !important;
+  cursor: pointer !important;
+  transition: border-color 0.15s !important;
+}
+
+.create-products-thq-input-elm10:hover,
+.create-products-thq-input-elm11:hover,
+.create-products-thq-input-elm15:hover,
+.create-products-thq-input-elm16:hover {
+  border-color: rgba(180, 185, 192, 1) !important;
+}
+
+/* Text inputs */
+.create-products-thq-input-elm12,
+.create-products-thq-input-elm13,
+.create-products-thq-input-elm23,
+.create-products-thq-input-elm24,
+.create-products-thq-input-elm27,
+.create-products-thq-input-elm28,
+.create-products-thq-input-elm30 {
+  height: 42px !important;
+  padding: 0 12px !important;
+  border: 1.5px solid rgba(225, 228, 232, 1) !important;
+  border-radius: 8px !important;
+  background: #fff !important;
+  font-size: 14px !important;
+  color: rgba(33, 43, 54, 1) !important;
+  outline: none !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  transition: border-color 0.15s !important;
+}
+
+.create-products-thq-input-elm12:focus,
+.create-products-thq-input-elm13:focus {
+  border-color: rgba(254, 159, 67, 0.6) !important;
+}
+
+/* All field labels — consistent style */
+.create-products-thq-text-elm101,
+.create-products-thq-text-elm105,
+.create-products-thq-text-elm109,
+.create-products-thq-text-elm112,
+.create-products-thq-text-elm115,
+.create-products-thq-text-elm119,
+.create-products-thq-text-elm123,
+.create-products-thq-text-elm128,
+.create-products-thq-text-elm132,
+.create-products-thq-text-elm136,
+.create-products-thq-text-elm140,
+.create-products-thq-text-elm144,
+.create-products-thq-text-elm154,
+.create-products-thq-text-elm157,
+.create-products-thq-text-elm160,
+.create-products-thq-text-elm164,
+.create-products-thq-text-elm168,
+.create-products-thq-text-elm171,
+.create-products-thq-text-elm180,
+.create-products-thq-text-elm184,
+.create-products-thq-text-elm187,
+.create-products-thq-text-elm189 {
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  color: rgba(33, 43, 54, 1) !important;
+  line-height: 1.3 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 2px !important;
+}
+
+/* Dropdown icons inside inputs */
+.create-products-thq-dropdown-icon-elm10,
+.create-products-thq-dropdown-icon-elm11,
+.create-products-thq-dropdown-icon-elm12,
+.create-products-thq-dropdown-icon-elm13,
+.create-products-thq-dropdown-icon-elm14,
+.create-products-thq-dropdown-icon-elm15,
+.create-products-thq-dropdown-icon-elm16,
+.create-products-thq-dropdown-icon-elm17,
+.create-products-thq-dropdown-icon-elm19,
+.create-products-thq-dropdown-icon-elm20,
+.create-products-thq-dropdown-icon-elm21 {
+  width: 14px !important;
+  height: 14px !important;
+  flex-shrink: 0 !important;
+  opacity: 0.5 !important;
+}
+
+/* Select placeholder text */
+.create-products-thq-text-elm104,
+.create-products-thq-text-elm108,
+.create-products-thq-text-elm122,
+.create-products-thq-text-elm127,
+.create-products-thq-text-elm131,
+.create-products-thq-text-elm135,
+.create-products-thq-text-elm139,
+.create-products-thq-text-elm147,
+.create-products-thq-text-elm163,
+.create-products-thq-text-elm167,
+.create-products-thq-text-elm183 {
+  font-size: 14px !important;
+  color: rgba(180, 184, 190, 1) !important;
+  flex-grow: 1 !important;
+  line-height: 1 !important;
+}
+
+/* ============================================
+   COMPREHENSIVE FIXES — ALL 8 ITEMS
+   ============================================ */
+
+/* ── 1. SELECT TEXT VERTICAL CENTER (fix align-self:stretch issue) ── */
+/* Input boxes that hold "Select" text need items centered */
+.create-products-thq-input-elm10,
+.create-products-thq-input-elm11,
+.create-products-thq-input-elm14,
+.create-products-thq-input-elm15,
+.create-products-thq-input-elm16,
+.create-products-thq-input-elm17,
+.create-products-thq-input-elm18,
+.create-products-thq-input-elm19,
+.create-products-thq-input-elm20,
+.create-products-thq-input-elm21,
+.create-products-thq-input-elm25,
+.create-products-thq-input-elm26,
+.create-products-thq-input-elm29,
+.create-products-thq-input-elm31,
+.create-products-thq-input-elm32 {
+  height: 36px !important;
+  min-height: 36px !important;
+  padding: 0 10px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  border: 1px solid rgba(225, 228, 232, 1) !important;
+  border-radius: 6px !important;
+  background: #fff !important;
+  box-sizing: border-box !important;
+  cursor: pointer !important;
+}
+
+/* Fix "Select" text — must NOT use align-self:stretch so it centers */
+.create-products-thq-text-elm104,
+.create-products-thq-text-elm108,
+.create-products-thq-text-elm122,
+.create-products-thq-text-elm127,
+.create-products-thq-text-elm131,
+.create-products-thq-text-elm135,
+.create-products-thq-text-elm139,
+.create-products-thq-text-elm147,
+.create-products-thq-text-elm163,
+.create-products-thq-text-elm167,
+.create-products-thq-text-elm183,
+.create-products-thq-text-elm188,
+.create-products-thq-text-elm192 {
+  font-size: 13px !important;
+  color: rgba(180, 184, 190, 1) !important;
+  flex-grow: 1 !important;
+  line-height: 1 !important;
+  align-self: center !important;      /* KEY FIX — not stretch */
+  height: auto !important;
+}
+
+/* ── 2. INPUT BOXES — tighter, more compact ── */
+/* Text inputs also get matching compact height */
+.create-products-thq-input-elm12,
+.create-products-thq-input-elm13,
+.create-products-thq-input-elm23,
+.create-products-thq-input-elm24,
+.create-products-thq-input-elm27,
+.create-products-thq-input-elm28,
+.create-products-thq-input-elm30 {
+  height: 36px !important;
+  min-height: 36px !important;
+  padding: 0 10px !important;
+  border: 1px solid rgba(225, 228, 232, 1) !important;
+  border-radius: 6px !important;
+  font-size: 13px !important;
+  color: rgba(33, 43, 54, 1) !important;
+  background: #fff !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  outline: none !important;
+}
+
+.create-products-thq-input-elm12:focus,
+.create-products-thq-input-elm13:focus,
+.create-products-thq-input-elm23:focus,
+.create-products-thq-input-elm24:focus,
+.create-products-thq-input-elm27:focus,
+.create-products-thq-input-elm28:focus,
+.create-products-thq-input-elm30:focus {
+  border-color: rgba(254, 159, 67, 0.55) !important;
+}
+
+/* Date inputs */
+.create-products-thq-text-elm188,
+.create-products-thq-text-elm192 {
+  font-size: 13px !important;
+  color: rgba(180, 184, 190, 1) !important;
+}
+
+/* Input wrapper gap */
+.create-products-thq-inputwith-select-elm10,
+.create-products-thq-inputwith-select-elm11,
+.create-products-thq-inputwith-select-elm12,
+.create-products-thq-inputwith-select-elm13,
+.create-products-thq-inputwith-select-elm14,
+.create-products-thq-inputwith-select-elm15,
+.create-products-thq-inputwith-select-elm16,
+.create-products-thq-inputwith-select-elm17,
+.create-products-thq-inputwith-select-elm18,
+.create-products-thq-inputwith-select-elm19,
+.create-products-thq-inputwithplaceholder-elm1,
+.create-products-thq-inputwithplaceholder-elm2,
+.create-products-thq-inputwithplaceholder-elm3,
+.create-products-thq-inputwithplaceholder-elm4,
+.create-products-thq-inputwithplaceholder-elm5,
+.create-products-thq-inputwithplaceholder-elm6,
+.create-products-thq-inputwithplaceholder-elm7,
+.create-products-thq-input-variant-elm1,
+.create-products-thq-input-variant-elm2,
+.create-products-thq-input-variant-elm3,
+.create-products-thq-inputwithdate-elm1,
+.create-products-thq-inputwithdate-elm2 {
+  gap: 5px !important;
+}
+
+/* Field labels smaller */
+.create-products-thq-text-elm101,
+.create-products-thq-text-elm105,
+.create-products-thq-text-elm109,
+.create-products-thq-text-elm112,
+.create-products-thq-text-elm115,
+.create-products-thq-text-elm119,
+.create-products-thq-text-elm123,
+.create-products-thq-text-elm128,
+.create-products-thq-text-elm132,
+.create-products-thq-text-elm136,
+.create-products-thq-text-elm140,
+.create-products-thq-text-elm144,
+.create-products-thq-text-elm154,
+.create-products-thq-text-elm157,
+.create-products-thq-text-elm160,
+.create-products-thq-text-elm164,
+.create-products-thq-text-elm168,
+.create-products-thq-text-elm171,
+.create-products-thq-text-elm180,
+.create-products-thq-text-elm184,
+.create-products-thq-text-elm187,
+.create-products-thq-text-elm189 {
+  font-size: 12.5px !important;
+  font-weight: 600 !important;
+  line-height: 1 !important;
+  height: auto !important;
+}
+
+/* Row containers compact gap */
+.create-products-thq-input-container-elm10,
+.create-products-thq-input-container-elm11,
+.create-products-thq-input-container-elm12,
+.create-products-thq-input-container-elm13,
+.create-products-thq-input-container-elm14,
+.create-products-thq-input-container-elm15,
+.create-products-thq-input-container-elm16,
+.create-products-thq-input-container-elm17,
+.create-products-thq-input-container-elm18,
+.create-products-thq-input-container-elm19 {
+  gap: 14px !important;
+}
+
+/* Card body padding reduce */
+.create-products-thq-cardbody-elm1,
+.create-products-thq-cardbody-elm2,
+.create-products-thq-cardbody-elm3,
+.create-products-thq-cardbody-elm4 {
+  padding: 18px 20px !important;
+  gap: 14px !important;
+}
+
+.create-products-thq-content-elm11,
+.create-products-thq-content-elm14,
+.create-products-thq-content-elm16,
+.create-products-thq-content-elm18 {
+  gap: 14px !important;
+}
+
+/* ── 3. DESCRIPTION TOOLBAR ICONS — all 16px, uniform gap ── */
+.create-products-thq-toolbar-elm1 {
+  gap: 3px !important;
+  padding: 6px 8px !important;
+  align-items: center !important;
+}
+
+.create-products-thq-toolbar-button-elm1,
+.create-products-thq-toolbar-button-elm2,
+.create-products-thq-toolbar-button-elm3,
+.create-products-thq-toolbar-button-elm4,
+.create-products-thq-toolbar-button-elm5,
+.create-products-thq-toolbar-button-elm6,
+.create-products-thq-toolbar-button-elm7,
+.create-products-thq-toolbar-button-elm8,
+.create-products-thq-toolbar-button-elm9 {
+  width: 30px !important;
+  height: 30px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 4px !important;
+  flex-shrink: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+}
+
+/* All toolbar icons — locked to 16×16 regardless of src */
+.create-products-thq-toolbar-button-elm1 img,
+.create-products-thq-toolbar-button-elm2 img,
+.create-products-thq-toolbar-button-elm3 img,
+.create-products-thq-toolbar-button-elm4 img,
+.create-products-thq-toolbar-button-elm5 img,
+.create-products-thq-toolbar-button-elm6 img,
+.create-products-thq-toolbar-button-elm7 img,
+.create-products-thq-toolbar-button-elm8 img,
+.create-products-thq-toolbar-button-elm9 img,
+.create-products-thq-icons-featherbold-elm,
+.create-products-thq-icons-featheritalic-elm,
+.create-products-thq-icons-featherunderline-elm,
+.create-products-thq-typestrikethrough-elm,
+.create-products-thq-icons-featherlink-elm,
+.create-products-thq-iconsbxlistol-elm,
+.create-products-thq-iconsbxlistul-elm,
+.create-products-thq-iconsbxquote-elm,
+.create-products-thq-iconsbxcodealt-elm {
+  width: 16px !important;
+  height: 16px !important;
+  display: block !important;
+  object-fit: contain !important;
+}
+
+/* Toolbar divider */
+.create-products-thq-toolbar-divider-elm {
+  width: 1px !important;
+  height: 18px !important;
+  background: rgba(209, 213, 219, 1) !important;
+  margin: 0 5px !important;
+  flex-shrink: 0 !important;
+  align-self: center !important;
+}
+
+/* ── 4. BOTTOM TOOLBAR (send bar) ICONS ── */
+.create-products-thq-toolbar-elm2 {
+  gap: 3px !important;
+  padding: 0 !important;
+  align-items: center !important;
+}
+
+.create-products-thq-clip-elm,
+.create-products-thq-smiley-elm,
+.create-products-thq-trashcan-elm {
+  width: 30px !important;
+  height: 30px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 4px !important;
+  flex-shrink: 0 !important;
+}
+
+.create-products-thq-clip-elm img,
+.create-products-thq-smiley-elm img,
+.create-products-thq-trashcan-elm img,
+.create-products-thq-icons-featherpaperclip-elm,
+.create-products-thq-iconsbxsmile-elm,
+.create-products-thq-icons-feathertrash2-elm {
+  width: 16px !important;
+  height: 16px !important;
+  display: block !important;
+  object-fit: contain !important;
+}
+
+/* ── 5. ADD IMAGE — icon above text ── */
+.create-products-thq-add-image-elm {
+  width: 160px !important;
+  height: 140px !important;
+  border: 2px dashed rgba(209, 213, 219, 1) !important;
+  border-radius: 10px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 10px !important;
+  cursor: pointer !important;
+  background: #fafafa !important;
+  position: static !important;
+}
+
+.create-products-thq-info-elm1 {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  position: static !important;
+  z-index: auto !important;
+}
+
+.create-products-thq-circleplus-elm {
+  width: 26px !important;
+  height: 26px !important;
+  display: block !important;
+  opacity: 0.45 !important;
+}
+
+.create-products-thq-text-elm175 {
+  font-size: 13px !important;
+  color: rgba(180, 184, 190, 1) !important;
+  text-align: center !important;
+  line-height: 1 !important;
+}
+
+/* ── 6. ADD PRODUCT BUTTON — fix right offset ── */
+.create-products-thq-action-buttons-elm {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  gap: 10px !important;
+  align-self: stretch !important;
+  padding: 4px 0 0 0 !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.create-products-thq-cancel-button-elm {
+  padding: 8px 20px !important;
+  height: 36px !important;
+  border-radius: 6px !important;
+  background-color: rgba(9, 44, 76, 1) !important;
+  border: none !important;
+  cursor: pointer !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.create-products-thq-add-product-button-elm {
+  padding: 8px 20px !important;
+  height: 36px !important;
+  border-radius: 6px !important;
+  background-color: rgba(254, 159, 67, 1) !important;
+  border: none !important;
+  cursor: pointer !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.create-products-thq-text-elm193,
+.create-products-thq-text-elm194 {
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  color: #fff !important;
+  line-height: 1 !important;
+  white-space: nowrap !important;
+}
+
+/* ── 7. HEADER OPTIONS — precise right-edge alignment ── */
+/* Header is at left:252px, width:1188px → total page 1440px
+   Inner options container should be flush inside the header padding */
+.create-products-thq-header-elm {
+  box-sizing: border-box !important;
+  padding: 0 24px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+}
+
+.create-products-thq-options-elm3 {
+  position: static !important;
+  top: unset !important;
+  left: unset !important;
+  width: auto !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
+/* ── 8. SIDEBAR — Products active, Dashboard inactive ── */
+
+/* Dashboard menu item — remove orange highlight */
+.create-products-thq-menu-elm1 {
+  background-color: transparent !important;
+}
+
+.create-products-thq-text-elm200 {
+  color: rgba(33, 43, 54, 1) !important;
+}
+
+/* Products menu item — apply orange active state */
+.create-products-thq-menu-elm2 {
+  background-color: rgba(255, 246, 238, 1) !important;
+  border-radius: 8px !important;
+}
+
+.create-products-thq-text-elm202 {
+  color: rgba(254, 159, 67, 1) !important;
+}
+
+/* Products icon — tint to orange */
+.create-products-thq-box-elm {
+  filter: invert(67%) sepia(72%) saturate(600%) hue-rotate(345deg) brightness(103%) !important;
+}
+
+/* Dashboard icon — ensure neutral */
+.create-products-thq-layoutgrid-elm {
+  filter: none !important;
+}
+
+
+/* ============================================
+   FIXES — ROUND 2
+   ============================================ */
+
+/* ── 1. DESCRIPTION TOOLBAR ICONS — all 18×18 ── */
+.create-products-thq-toolbar-button-elm1 img,
+.create-products-thq-toolbar-button-elm2 img,
+.create-products-thq-toolbar-button-elm3 img,
+.create-products-thq-toolbar-button-elm4 img,
+.create-products-thq-toolbar-button-elm5 img,
+.create-products-thq-toolbar-button-elm6 img,
+.create-products-thq-toolbar-button-elm7 img,
+.create-products-thq-toolbar-button-elm8 img,
+.create-products-thq-toolbar-button-elm9 img,
+.create-products-thq-icons-featherbold-elm,
+.create-products-thq-icons-featheritalic-elm,
+.create-products-thq-icons-featherunderline-elm,
+.create-products-thq-typestrikethrough-elm,
+.create-products-thq-icons-featherlink-elm,
+.create-products-thq-iconsbxlistol-elm,
+.create-products-thq-iconsbxlistul-elm,
+.create-products-thq-iconsbxquote-elm,
+.create-products-thq-iconsbxcodealt-elm {
+  width: 18px !important;
+  height: 18px !important;
+  display: block !important;
+  object-fit: contain !important;
+  flex-shrink: 0 !important;
+}
+
+/* Toolbar button containers sized to fit 18px icons */
+.create-products-thq-toolbar-button-elm1,
+.create-products-thq-toolbar-button-elm2,
+.create-products-thq-toolbar-button-elm3,
+.create-products-thq-toolbar-button-elm4,
+.create-products-thq-toolbar-button-elm5,
+.create-products-thq-toolbar-button-elm6,
+.create-products-thq-toolbar-button-elm7,
+.create-products-thq-toolbar-button-elm8,
+.create-products-thq-toolbar-button-elm9 {
+  width: 32px !important;
+  height: 32px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 4px !important;
+  flex-shrink: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+}
+
+/* ── 2 & 3. HEADER — POS button & Back to Products flush right ── */
+/* Remove absolute positioning, use flexbox flow */
+.create-products-thq-header-elm {
+  position: absolute !important;
+  top: 0px !important;
+  left: 252px !important;
+  width: calc(1440px - 252px) !important;
+  height: 66px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  padding: 0 24px !important;
+  box-sizing: border-box !important;
+  border-bottom: 1px solid rgba(230, 234, 237, 1) !important;
+  background-color: rgba(255, 255, 255, 1) !important;
+}
+
+.create-products-thq-options-elm3 {
+  position: static !important;
+  top: unset !important;
+  left: unset !important;
+  width: auto !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  flex-shrink: 0 !important;
+}
+
+/* Page info row (breadcrumb + action buttons row) — same right edge */
+.create-products-thq-page-info-create-product-elm {
+  box-sizing: border-box !important;
+  width: 1140px !important; /* matches container-elm1 width */
+}
+
+.create-products-thq-options-elm2 {
+  gap: 10px !important;
+  display: flex !important;
+  align-items: center !important;
+  flex-shrink: 0 !important;
+}
+
+/* ── 4. GENERATE BUTTON — push to right inside SKU & Item Code input box ── */
+/* The input-elm14 and input-elm20 are the wrappers for SKU and Item Code */
+.create-products-thq-input-elm14,
+.create-products-thq-input-elm20 {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  height: 36px !important;
+  padding: 0 8px 0 12px !important;
+  border: 1px solid rgba(225, 228, 232, 1) !important;
+  border-radius: 6px !important;
+  background: #fff !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  /* invisible text input area to the left, button to the right */
+  position: relative !important;
+}
+
+/* Generate button styling — compact, right-aligned */
+.create-products-thq-button-elm1,
+.create-products-thq-button-elm2 {
+  height: 26px !important;
+  padding: 0 10px !important;
+  border-radius: 5px !important;
+  background-color: rgba(254, 159, 67, 1) !important;
+  border: none !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-shrink: 0 !important;
+  cursor: pointer !important;
+  margin-left: auto !important;
+}
+
+.create-products-thq-text-elm118,
+.create-products-thq-text-elm143 {
+  color: #fff !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  line-height: 1 !important;
+  white-space: nowrap !important;
+}
+
+/* ── 5. ADD NEW ICON (circle-plus) — match orange color of "Add New" text ── */
+.create-products-thq-add-icon-elm {
+  width: 14px !important;
+  height: 14px !important;
+  flex-shrink: 0 !important;
+  /* orange tint matching rgba(254,159,67) */
+  filter: invert(67%) sepia(72%) saturate(600%) hue-rotate(345deg) brightness(103%) !important;
+}
+
+/* ── 6. ADD IMAGE — circle-plus ABOVE "Add Image" text ── */
+.create-products-thq-add-image-elm {
+  width: 120px !important;
+  height: 120px !important;
+  border: 2px dashed rgba(209, 213, 219, 1) !important;
+  border-radius: 10px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  cursor: pointer !important;
+  background: #fafafa !important;
+  position: static !important;
+  box-sizing: border-box !important;
+}
+
+/* ── 7. ADD IMAGE BOX — 120×120 px (same as above) ── */
+.create-products-thq-info-elm1 {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 6px !important;
+  position: static !important;
+  z-index: auto !important;
+}
+
+.create-products-thq-circleplus-elm {
+  width: 22px !important;
+  height: 22px !important;
+  display: block !important;
+  opacity: 0.5 !important;
+}
+
+.create-products-thq-text-elm175 {
+  font-size: 12px !important;
+  color: rgba(180, 184, 190, 1) !important;
+  text-align: center !important;
+  line-height: 1 !important;
+}
+
+
+/* ============================================
+   FIXES — ROUND 3
+   ============================================ */
+
+/* ── 1. CALENDAR ICON — visible, proper size, right-aligned ── */
+.create-products-thq-calendar-icon-elm1,
+.create-products-thq-calendar-icon-elm2 {
+  width: 16px !important;
+  height: 16px !important;
+  flex-shrink: 0 !important;
+  display: block !important;
+  opacity: 0.5 !important;
+  margin-left: auto !important;
+}
+
+/* Date input boxes — ensure flex row so icon shows on right */
+.create-products-thq-input-elm31,
+.create-products-thq-input-elm32 {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  height: 36px !important;
+  padding: 0 10px !important;
+  border: 1px solid rgba(225, 228, 232, 1) !important;
+  border-radius: 6px !important;
+  background: #fff !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  gap: 8px !important;
+}
+
+/* "dd/mm/yyyy" placeholder text — sits on left, grows */
+.create-products-thq-text-elm188,
+.create-products-thq-text-elm192 {
+  flex-grow: 1 !important;
+  align-self: center !important;
+  font-size: 13px !important;
+  color: rgba(180, 184, 190, 1) !important;
+  line-height: 1 !important;
+  height: auto !important;
+}
+
+/* ── 2 & 3. HEADER — POS & Back to Products truly right-aligned ── */
+/* The header spans from left:252 to right edge.
+   We must NOT use position:absolute on children — just flex the header. */
+
+.create-products-thq-header-elm {
+  position: absolute !important;
+  top: 0 !important;
+  left: 252px !important;
+  right: 0 !important;           /* stretch to page right edge */
+  width: auto !important;        /* let right: 0 control width */
+  height: 66px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  padding: 0 24px !important;
+  box-sizing: border-box !important;
+  gap: 0 !important;
+  border-bottom: 1px solid rgba(230, 234, 237, 1) !important;
+  background-color: rgba(255, 255, 255, 1) !important;
+  z-index: 10 !important;
+}
+
+/* options-elm3 is the only child — display as flex row, no abs positioning */
+.create-products-thq-options-elm3 {
+  position: static !important;
+  top: unset !important;
+  left: unset !important;
+  right: unset !important;
+  width: auto !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 10px !important;
+  flex-shrink: 0 !important;
+}
+
+/* Divider line between POS button and edge */
+.create-products-thq-divider-elm4 {
+  display: none !important;    /* hide the vertical divider that pushes layout */
+}
+
+/* ── Also fix page-info row right edge alignment ── */
+/* page-info is absolute at left:276, width:1140 → right edge = 1416px
+   options-elm2 (refresh + collapse + back) sits at end of this row */
+.create-products-thq-page-info-create-product-elm {
+  gap: 0 !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.create-products-thq-options-elm2 {
+  margin-left: auto !important;
+  gap: 8px !important;
+  display: flex !important;
+  align-items: center !important;
+  flex-shrink: 0 !important;
+}
+
+
+/* ============================================
+   FIXES — ROUND 4
+   ============================================ */
+
+/* ── SIDEBAR: Dashboard = ACTIVE, Products = inactive ── */
+
+/* Dashboard menu — orange active */
+.create-products-thq-menu-elm1 {
+  background-color: rgba(255, 246, 238, 1) !important;
+  border-radius: 8px !important;
+}
+.create-products-thq-text-elm200 {
+  color: rgba(254, 159, 67, 1) !important;
+}
+.create-products-thq-layoutgrid-elm {
+  filter: invert(67%) sepia(72%) saturate(600%) hue-rotate(345deg) brightness(103%) !important;
+}
+
+/* Products menu — neutral inactive */
+.create-products-thq-menu-elm2 {
+  background-color: transparent !important;
+}
+.create-products-thq-text-elm202 {
+  color: rgba(33, 43, 54, 1) !important;
+}
+.create-products-thq-box-elm {
+  filter: none !important;
+}
+
+/* ── POS BUTTON — align with content right edge (1416px from left) ── */
+/* Header is position:absolute left:252 right:0
+   We need POS to align to right:24px from right edge of page,
+   matching the content container's right edge (left:276 + width:1140 = 1416,
+   and page width 1440 → right margin = 24px) */
+.create-products-thq-header-elm {
+  position: absolute !important;
+  top: 0 !important;
+  left: 252px !important;
+  width: 1188px !important;        /* 1440 - 252 = 1188 */
+  height: 66px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  padding: 0 24px !important;
+  box-sizing: border-box !important;
+  border-bottom: 1px solid rgba(230, 234, 237, 1) !important;
+  background-color: rgba(255, 255, 255, 1) !important;
+  z-index: 10 !important;
+}
+
+.create-products-thq-options-elm3 {
+  position: static !important;
+  top: unset !important;
+  left: unset !important;
+  width: auto !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 10px !important;
+  flex-shrink: 0 !important;
+}
+
+/* Hide the divider that was pushing layout */
+.create-products-thq-divider-elm4 {
+  display: none !important;
+}
+
+/* ── CALENDAR ICON — proper display as SVG ── */
+.create-products-thq-calendar-icon-elm1,
+.create-products-thq-calendar-icon-elm2 {
+  width: 16px !important;
+  height: 16px !important;
+  flex-shrink: 0 !important;
+  display: block !important;
+  color: rgba(150, 158, 166, 1) !important;
+  stroke: rgba(150, 158, 166, 1) !important;
+  opacity: 1 !important;
+  margin-left: auto !important;
+}
+/* ============================================
+   FIXES — ROUND 4 (fresh base)
+   ============================================ */
+
+/* ── HEADER: POS button flush right, divider on right edge ── */
+/* Header spans left:252px to right edge of 1440px page */
+.create-products-thq-header-elm {
+  position: absolute !important;
+  top: 0 !important;
+  left: 252px !important;
+  width: 1188px !important;
+  height: 66px !important;
+  display: flex !important;
+  align-items: stretch !important;
+  justify-content: flex-end !important;  /* push everything to right */
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  border-bottom: 1px solid rgba(230, 234, 237, 1) !important;
+  background-color: rgba(255, 255, 255, 1) !important;
+  z-index: 10 !important;
+  overflow: hidden !important;
+}
+
+/* options-elm3: row holding POS + divider, no absolute */
+.create-products-thq-options-elm3 {
+  position: static !important;
+  top: unset !important;
+  left: unset !important;
+  width: auto !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 0 !important;
+  flex-shrink: 0 !important;
+}
+
+/* POS button: has right gap before divider */
+.create-products-thq-button-pos-elm {
+  gap: 6px !important;
+  display: flex !important;
+  padding: 7px 14px !important;
+  align-items: center !important;
+  border-radius: 5px !important;
+  justify-content: center !important;
+  background-color: rgba(9, 44, 76, 1) !important;
+  border: none !important;
+  cursor: pointer !important;
+  margin-right: 16px !important;  /* gap between button and divider */
+  flex-shrink: 0 !important;
+}
+
+/* Vertical divider — right edge, full header height */
+.create-products-thq-divider-elm4 {
+  display: block !important;
+  width: 1px !important;
+  height: 100% !important;
+  align-self: stretch !important;
+  background-color: rgba(230, 234, 237, 1) !important;
+  flex-shrink: 0 !important;
+}
+
+/* Laptop icon inside POS */
+.create-products-thq-devicelaptop-elm {
+  width: 14px !important;
+  height: 14px !important;
+  display: block !important;
+  flex-shrink: 0 !important;
+}
+
+/* ── CALENDAR ICON — force show, proper size ── */
+.create-products-thq-calendar-icon-elm1,
+.create-products-thq-calendar-icon-elm2 {
+  width: 16px !important;
+  height: 16px !important;
+  flex-shrink: 0 !important;
+  display: block !important;
+  opacity: 1 !important;
+  margin-left: auto !important;
+  visibility: visible !important;
+}
+
+/* Date input rows — flex so icon appears on right */
+.create-products-thq-input-elm31,
+.create-products-thq-input-elm32 {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  height: 36px !important;
+  padding: 0 10px !important;
+  border: 1px solid rgba(225, 228, 232, 1) !important;
+  border-radius: 6px !important;
+  background: #fff !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  gap: 8px !important;
+}
+
+.create-products-thq-text-elm188,
+.create-products-thq-text-elm192 {
+  flex-grow: 1 !important;
+  align-self: center !important;
+  height: auto !important;
+  font-size: 13px !important;
+  color: rgba(180, 184, 190, 1) !important;
+  line-height: 1 !important;
+}
+
+/* ── CIRCLE-PLUS (add-image) — force show ── */
+.create-products-thq-circleplus-elm {
+  width: 24px !important;
+  height: 24px !important;
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  flex-shrink: 0 !important;
+}
+
+/* add-image box: icon on top, text below */
+.create-products-thq-add-image-elm {
+  width: 120px !important;
+  height: 120px !important;
+  border: 2px dashed rgba(209, 213, 219, 1) !important;
+  border-radius: 10px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  cursor: pointer !important;
+  background: #fafafa !important;
+  position: static !important;
+  box-sizing: border-box !important;
+}
+
+.create-products-thq-info-elm1 {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 6px !important;
+  position: static !important;
+}
+
+/* ── SIDEBAR: Dashboard active, Products inactive ── */
+.create-products-thq-menu-elm1 {
+  background-color: rgba(255, 246, 238, 1) !important;
+  border-radius: 8px !important;
+}
+.create-products-thq-text-elm200 {
+  color: rgba(254, 159, 67, 1) !important;
+}
+.create-products-thq-layoutgrid-elm {
+  filter: invert(67%) sepia(72%) saturate(600%) hue-rotate(345deg) brightness(103%) !important;
+}
+.create-products-thq-menu-elm2 {
+  background-color: transparent !important;
+}
+.create-products-thq-text-elm202 {
+  color: rgba(33, 43, 54, 1) !important;
+}
+.create-products-thq-box-elm {
+  filter: none !important;
+}
+/* ============================================
+   FIX HEADER CREATE PRODUCT (breadcrumb + actions)
+   ============================================ */
+
+/* Pastikan container utama tidak overflow */
+.create-products-thq-create-products-elm {
+  overflow-x: hidden !important;
+}
+
+/* Baris breadcrumb + refresh + back — posisi di atas, rapi */
+.create-products-thq-page-info-create-product-elm {
+  position: absolute !important;
+  top: 80px !important;
+  left: 276px !important;
+  right: 24px !important;
+  width: auto !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 20px !important;
+  z-index: 20 !important;
+}
+
+/* Area breadcrumb (kiri) */
+.create-products-thq-create-product-dashboard-create-product-elm {
+  flex: 1 !important;
+  width: auto !important;
+}
+
+/* Judul "Create Product" */
+.create-products-thq-text-elm195 {
+  font-size: 20px !important;
+  margin-bottom: 4px !important;
+}
+
+/* Container tombol aksi (refresh, collapse, back) */
+.create-products-thq-options-elm2 {
+  gap: 12px !important;
+  display: flex !important;
+  align-items: center !important;
+  margin-left: auto !important;
+}
+
+/* Refresh & Collapse icon box */
+.create-products-thq-refresh-elm,
+.create-products-thq-collapse-elm {
+  width: 40px !important;
+  height: 40px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border: 1px solid rgba(225, 228, 232, 1) !important;
+  border-radius: 8px !important;
+  background-color: #fff !important;
+  cursor: pointer !important;
+}
+
+.create-products-thq-refresh-elm:hover,
+.create-products-thq-collapse-elm:hover {
+  background-color: #f8f9fa !important;
+}
+
+/* Tombol Back to Products */
+.create-products-thq-button-elm7 {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  padding: 0 20px !important;
+  height: 40px !important;
+  background-color: #092c4c !important;
+  border-radius: 8px !important;
+  border: none !important;
+  cursor: pointer !important;
+  white-space: nowrap !important;
+}
+
+.create-products-thq-button-elm7:hover {
+  opacity: 0.9 !important;
+}
+
+.create-products-thq-arrowleft-elm {
+  width: 14px !important;
+  height: 14px !important;
+  filter: brightness(0) invert(1) !important;
+}
+
+.create-products-thq-text-elm198 {
+  color: #fff !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+}
+
+/* Sembunyikan icon chevron yang tidak dipakai jika perlu */
+.create-products-thq-button-elm6 {
+  display: none !important;
+}
