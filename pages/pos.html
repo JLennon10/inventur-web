@@ -7,18 +7,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" />
+    <link rel="stylesheet" href="../assets/css/tailwind.css" />
     <link rel="stylesheet" href="../assets/css/app.css" />
     <link rel="stylesheet" href="../assets/css/pos.css" />
   </head>
-  <body>
-    <main class="pos-screen">
-      <header class="pos-topbar">
+  <body class="min-w-80 bg-inventur-bg font-sans text-inventur-text antialiased">
+    <main class="pos-screen min-h-screen bg-inventur-bg">
+      <header class="pos-topbar flex items-center border-b border-inventur-border bg-white">
         <img src="../assets/img/Logo.svg" alt="Inventur" />
       </header>
 
-      <div class="pos-layout">
-        <section class="pos-catalog">
-          <div class="pos-actions card">
+      <div class="pos-layout grid min-h-0 gap-6">
+        <section class="pos-catalog min-w-0">
+          <div class="pos-actions card rounded-lg border border-inventur-border bg-white shadow-inventur">
             <button class="pos-action pos-action-green" type="button">
               <img src="../assets/img/icons/shopping-cart.svg" alt="" /> View Orders
             </button>
