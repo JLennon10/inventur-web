@@ -3,9 +3,10 @@
 
   const I = window.Inventur;
 
-  I.ready(function () {
-    const page = I.$(".report-page");
-    const table = I.$(".report-table");
+  function initInvoiceReports(root) {
+    const scope = root || document;
+    const page = I.$(".report-page", scope);
+    const table = I.$(".report-table", scope);
     if (!page || !table) return;
 
     const customerSelect = I.$(".report-filter label:nth-child(2) select", page);
@@ -117,15 +118,23 @@
       });
     });
 
-    document.addEventListener("inventur:refresh", function () {
+    function refreshHandler() {
       customer = "All";
       status = "All";
       if (customerSelect) customerSelect.value = "All";
       if (statusSelect) statusSelect.value = "All";
       applyFilters();
       I.toast("Invoice report refreshed");
-    });
+    }
+
+    document.addEventListener("inventur:refresh", refreshHandler);
+    page.addEventListener("inventur:dispose", function () {
+      document.removeEventListener("inventur:refresh", refreshHandler);
+    }, { once: true });
 
     applyFilters();
-  });
+  }
+
+  I.registerPage("invoice-reports", initInvoiceReports);
+  I.ready(initInvoiceReports);
 })();

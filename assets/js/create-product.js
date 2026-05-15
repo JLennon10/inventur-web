@@ -3,8 +3,8 @@
 
   const I = window.Inventur;
 
-  I.ready(function () {
-    const form = I.$(".create-form");
+  function initCreateProduct(root) {
+    const form = I.$(".create-form", root || document);
     if (!form) return;
 
     const fields = I.$$(".field, .select-field, textarea", form);
@@ -159,7 +159,7 @@
 
     if (cancelButton) {
       cancelButton.addEventListener("click", function () {
-        location.href = "./products.html";
+        I.loadAppPage("./products.html");
       });
     }
 
@@ -186,5 +186,8 @@
       if (sku) sku.value = I.randomCode("SKU-", 5);
       if (itemCode) itemCode.value = I.randomCode("ITM-", 6);
     }
-  });
+  }
+
+  I.registerPage("create-product", initCreateProduct);
+  I.ready(initCreateProduct);
 })();

@@ -3,8 +3,8 @@
 
   const I = window.Inventur;
 
-  I.ready(function () {
-    const page = I.$(".dashboard-page");
+  function initDashboard(root) {
+    const page = I.$(".dashboard-page", root || document);
     if (!page) return;
 
     const dateButton = I.$(".dashboard-greeting .page-actions .btn", page);
@@ -66,11 +66,19 @@
       });
     }
 
-    document.addEventListener("inventur:refresh", function () {
+    function refreshHandler() {
       refreshMetrics();
       I.toast("Dashboard data refreshed");
-    });
+    }
+
+    document.addEventListener("inventur:refresh", refreshHandler);
+    page.addEventListener("inventur:dispose", function () {
+      document.removeEventListener("inventur:refresh", refreshHandler);
+    }, { once: true });
 
     setDateRange();
-  });
+  }
+
+  I.registerPage("dashboard", initDashboard);
+  I.ready(initDashboard);
 })();

@@ -3,9 +3,10 @@
 
   const I = window.Inventur;
 
-  I.ready(function () {
-    const page = I.$(".products-page");
-    const table = I.$(".products-table");
+  function initProducts(root) {
+    const scope = root || document;
+    const page = I.$(".products-page", scope);
+    const table = I.$(".products-table", scope);
     if (!page || !table) return;
 
     const search = I.$(".table-search input", page);
@@ -137,13 +138,13 @@
         applyFilters();
         I.toast(name + " deleted");
       } else if (src.includes("edit")) {
-        location.href = "./create-product.html?sku=" + encodeURIComponent(sku);
+        I.loadAppPage("./create-product.html?sku=" + encodeURIComponent(sku));
       } else {
         I.toast(name + " stock: " + cell(row, 7) + " pcs");
       }
     });
 
-    document.addEventListener("inventur:refresh", function () {
+    function refreshHandler() {
       if (search) search.value = "";
       query = "";
       category = "All";
@@ -153,8 +154,16 @@
       if (filterButtons[1]) updateFilterButton(filterButtons[1], "Brand", "All");
       applyFilters();
       I.toast("Products table refreshed");
-    });
+    }
+
+    document.addEventListener("inventur:refresh", refreshHandler);
+    page.addEventListener("inventur:dispose", function () {
+      document.removeEventListener("inventur:refresh", refreshHandler);
+    }, { once: true });
 
     applyFilters();
-  });
+  }
+
+  I.registerPage("products", initProducts);
+  I.ready(initProducts);
 })();

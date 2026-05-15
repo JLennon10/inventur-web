@@ -92,18 +92,33 @@
     }, 2400);
   }
 
-  function setActiveNav() {
-    const page = location.pathname.split("/").pop();
+  function pageFileFromUrl(url) {
+    return (url || location).pathname.split("/").pop() || "dashboard.html";
+  }
+
+  function pageKeyFromUrl(url) {
+    return pageFileFromUrl(url).replace(/\.html$/i, "");
+  }
+
+  function navPageFor(pageFile) {
+    return pageFile === "create-product.html" ? "products.html" : pageFile;
+  }
+
+  function setActiveNav(pageFile) {
+    const page = navPageFor(pageFile || pageFileFromUrl(location));
     $$(".nav-link").forEach(function (link) {
       const href = link.getAttribute("href") || "";
       link.classList.toggle("active", href.endsWith(page));
     });
   }
 
-  function initRefreshButtons() {
-    $$("button").forEach(function (button) {
+  function initRefreshButtons(root) {
+    const scope = root || doc;
+    $$("button", scope).forEach(function (button) {
+      if (button.dataset.inventurRefreshReady === "true") return;
       const icon = $("img", button);
       if (!icon || !(icon.getAttribute("src") || "").includes("Refresh Icon")) return;
+      button.dataset.inventurRefreshReady = "true";
       button.addEventListener("click", function () {
         icon.animate(
           [{ transform: "rotate(0deg)" }, { transform: "rotate(360deg)" }],
@@ -117,6 +132,8 @@
   function initCheckBoxes(root) {
     const scope = root || doc;
     $$(".check-box", scope).forEach(function (box) {
+      if (box.dataset.inventurCheckboxReady === "true") return;
+      box.dataset.inventurCheckboxReady = "true";
       box.setAttribute("role", "checkbox");
       box.setAttribute("tabindex", "0");
       box.style.cursor = "pointer";
@@ -146,6 +163,8 @@
   function initPagination(root, onChange) {
     const scope = root || doc;
     $$(".pagination", scope).forEach(function (pagination) {
+      if (pagination.dataset.inventurPaginationReady === "true") return;
+      pagination.dataset.inventurPaginationReady = "true";
       const dots = $$(".page-dot", pagination);
       dots.forEach(function (dot) {
         dot.addEventListener("click", function () {
@@ -157,6 +176,130 @@
         });
       });
     });
+  }
+
+  const pageInitializers = {};
+  const loadedPageScripts = {};
+
+  function registerPage(name, callback) {
+    if (name && typeof callback === "function") {
+      pageInitializers[name] = callback;
+    }
+  }
+
+  function initCommon(root) {
+    initRefreshButtons(root);
+    initCheckBoxes(root);
+    initPagination(root);
+  }
+
+  function runPageInit(pageKey, root) {
+    initCommon(root);
+    const init = pageInitializers[pageKey];
+    if (init) init(root || doc);
+  }
+
+  function addPageStyles(targetDoc, targetUrl) {
+    $$('link[rel="stylesheet"]', targetDoc).forEach(function (link) {
+      const rawHref = link.getAttribute("href") || "";
+      if (!rawHref || rawHref.includes("tailwind.css") || rawHref.includes("app.css")) return;
+
+      const href = new URL(rawHref, targetUrl).href;
+      const exists = $$('link[rel="stylesheet"]', doc).some(function (item) {
+        return item.href === href;
+      });
+      if (exists) return;
+
+      const next = doc.createElement("link");
+      next.rel = "stylesheet";
+      next.href = href;
+      next.dataset.inventurPageStyle = "true";
+      doc.head.appendChild(next);
+    });
+  }
+
+  function ensurePageScripts(targetDoc, targetUrl) {
+    const scripts = $$("script[src]", targetDoc).filter(function (script) {
+      const src = script.getAttribute("src") || "";
+      return !src.endsWith("app.js");
+    });
+
+    return Promise.all(scripts.map(function (script) {
+      const src = new URL(script.getAttribute("src"), targetUrl).href;
+      if (loadedPageScripts[src]) return Promise.resolve(false);
+
+      loadedPageScripts[src] = true;
+      return new Promise(function (resolve, reject) {
+        const next = doc.createElement("script");
+        next.src = src;
+        next.onload = function () {
+          resolve(true);
+        };
+        next.onerror = reject;
+        doc.body.appendChild(next);
+      });
+    })).then(function (results) {
+      return results.some(Boolean);
+    });
+  }
+
+  function shouldHandleAppLink(anchor, event) {
+    if (!anchor || !anchor.href) return false;
+    if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return false;
+    if (anchor.target && anchor.target !== "_self") return false;
+    if (anchor.hasAttribute("download")) return false;
+
+    const url = new URL(anchor.href, location.href);
+    if (url.origin !== location.origin) return false;
+    if (pageFileFromUrl(url) === "sign-in.html") return false;
+    return url.pathname.includes("/pages/");
+  }
+
+  function loadAppPage(url, options) {
+    const targetUrl = new URL(url, location.href);
+    const currentContent = $(".app-content");
+    if (!currentContent) {
+      location.href = targetUrl.href;
+      return Promise.resolve(false);
+    }
+
+    return fetch(targetUrl.href, { headers: { "X-Inventur-Navigation": "partial" } })
+      .then(function (response) {
+        if (!response.ok) throw new Error("Unable to load page");
+        return response.text();
+      })
+      .then(function (html) {
+        const targetDoc = new DOMParser().parseFromString(html, "text/html");
+        const nextContent = $(".app-content", targetDoc);
+        if (!nextContent) {
+          location.href = targetUrl.href;
+          return false;
+        }
+
+        currentContent.dispatchEvent(new CustomEvent("inventur:dispose", { bubbles: true }));
+        addPageStyles(targetDoc, targetUrl);
+        currentContent.replaceWith(doc.importNode(nextContent, true));
+        doc.title = targetDoc.title || doc.title;
+        setActiveNav(pageFileFromUrl(targetUrl));
+        closeDropdowns();
+        window.scrollTo({ top: 0, left: 0 });
+
+        if (!options || options.history !== false) {
+          history.pushState({ inventurPage: true }, "", targetUrl.href);
+        }
+
+        const freshContent = $(".app-content");
+        initCommon(freshContent);
+        return ensurePageScripts(targetDoc, targetUrl).then(function (loadedNewScript) {
+          if (!loadedNewScript) runPageInit(pageKeyFromUrl(targetUrl), freshContent);
+          doc.dispatchEvent(new CustomEvent("inventur:page:loaded", { detail: { page: pageKeyFromUrl(targetUrl) } }));
+          return true;
+        });
+      })
+      .catch(function () {
+        location.href = targetUrl.href;
+        return false;
+      });
   }
 
   function makeDropdown(button, items, onPick) {
@@ -221,11 +364,23 @@
     return visible;
   }
 
+  doc.addEventListener("click", function (event) {
+    const anchor = event.target.closest("a[href]");
+    if (!shouldHandleAppLink(anchor, event)) return;
+    event.preventDefault();
+    loadAppPage(anchor.href);
+  });
+
+  window.addEventListener("popstate", function () {
+    loadAppPage(location.href, { history: false });
+  });
+
   ready(function () {
+    $$("script[src]", doc).forEach(function (script) {
+      loadedPageScripts[new URL(script.getAttribute("src"), location.href).href] = true;
+    });
     setActiveNav();
-    initRefreshButtons();
-    initCheckBoxes();
-    initPagination();
+    initCommon();
   });
 
   window.Inventur = {
@@ -242,6 +397,9 @@
     toast: toast,
     initCheckBoxes: initCheckBoxes,
     initPagination: initPagination,
+    registerPage: registerPage,
+    runPageInit: runPageInit,
+    loadAppPage: loadAppPage,
     makeDropdown: makeDropdown,
     closeDropdowns: closeDropdowns,
     getRows: getRows,
